@@ -1,0 +1,135 @@
+.container{
+	display:grid;
+    width:  minmax(12em, 56em);
+    height:auto;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:  repeat(3, 1fr);
+    grid-template-areas: 
+    " sb sb sb sb"
+    " hd hd hd hd"
+    " hd hd hd hd";
+    background-color: #ffff;
+    padding-right: 2em;
+    padding-left: 2em;
+    grid-gap: 2.5em;
+  }
+
+ 
+
+ 
+.scrollB{
+	grid-area: sb;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(4.69em, 20.44em);
+    grid-template-areas: 
+    "sText sImage";
+}
+.sText{
+    grid-area: sText;
+    width:100%;
+    background-color: #E6F7FB;
+    padding: .5em;
+}
+
+.sImage{
+    grid-area: sImage;
+    width:auto;
+    background-color: #E6F7FB;
+    overflow:hidden;
+
+}
+img{
+    width:100%;
+    height : 100%;
+}
+
+.headLinks{
+	grid-area: hd;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:repeat(4, 1fr);
+    grid-template-areas: 
+    "headLeft headRight"
+    "headLeft headRight"
+    "headLeft headRight"
+    "headLeft headRight";
+    grid-column-gap: .5em;
+}
+
+.headLeft{
+    grid-area: headLeft;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(4.69em , 16.25em) 1fr;
+    grid-template-areas: 
+    "hLeftBoard"
+    "hLeftLinker";
+
+
+}
+
+.hLeftBoard{
+    grid-area: hLeftBoard;
+    background-image: url(./images/standardBG.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    /*padding: .5em;*/
+    
+}
+/*.tHeadL{
+    width: 100%;
+    height:auto;
+}
+.tBotL{
+    width: 100%;
+}*/
+.hLeftLinker{
+    grid-area:hLeftLinker;
+}
+
+.headRight{
+    grid-area: headRight;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(4.69em , 16.25em) 1fr;
+    grid-template-areas: 
+    "hRightBoard"
+    "hRightLinks";
+}
+
+.hRightBoard{
+    grid-area: hRightBoard;
+    background-image: url(./images/advancedBG.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: .5em;
+}
+
+.hRightLinks{
+  grid-area:  hRightLinks;
+}
+
+.cardList{
+  display:grid;
+  width:auto;
+  grid-template-columns: repeat(autofill, minmax(1em 2em)); 
+  grid-auto-rows: minmax(1.25em, auto);
+  grid-gap: .5rem;
+  grid-row-gap: .5rem;
+  padding:  1em;
+  align-items: center;
+  justify-items:center;
+  background: #E6F7FB;
+  grid-template-areas: 
+   "spans spans spans "
+   "spans spans spans ";
+   
+
+}
