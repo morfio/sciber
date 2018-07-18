@@ -6,6 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 import Home from './Home';
 //import CardList from './CardList';
 import {CoursesStan} from './CoursesStan';
+import Quiz from './Quiz';
 
-ReactDOM.render(<Home  />, document.getElementById('root'));
+ReactDOM.render(<Quiz />, document.getElementById('root'));
 registerServiceWorker();

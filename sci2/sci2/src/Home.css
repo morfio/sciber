@@ -11,10 +11,40 @@
     background-color: #ffff;
     padding-right: 2em;
     padding-left: 2em;
-    grid-gap: 2.5em;
+    grid-gap: .5em;
   }
+@media only screen and (max-width: 980px){
+    .container{
+        font-size: .9em;
+        grid-gap: 0em;
+    }
+ }
+ @media only screen and (max-width: 768px){
+    .container{
+        font-size: .7em;
+        grid-gap: 0em;
+    }
+ }
 
- 
+ @media only screen and (max-width: 568px){
+    .container{
+        font-size: .5em;
+        grid-gap: 0em;
+    }
+ }
+ @media only screen and (max-width: 500px){
+    .container{
+        font-size: .4em;
+        grid-gap: 0em;
+    }
+ }
+
+ @media only screen and (max-width: 422px){
+    .container{
+        font-size: .3em;
+        grid-gap: 0em;
+    }
+ }
 
  
 .scrollB{
@@ -27,7 +57,7 @@
 }
 .sText{
     grid-area: sText;
-    width:100%;
+    width:auto;
     background-color: #E6F7FB;
     padding: .5em;
 }
@@ -119,7 +149,7 @@ img{
 .cardList{
   display:grid;
   width:auto;
-  grid-template-columns: repeat(autofill, minmax(1em 2em)); 
+  grid-template-columns: repeat(autofill, minmax(1em, 2em)); 
   grid-auto-rows: minmax(1.25em, auto);
   grid-gap: .5rem;
   grid-row-gap: .5rem;

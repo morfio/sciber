@@ -46,7 +46,7 @@ class Home extends Component {
 			<div className='headLinks content'>
 				<div className='headLeft'>
 					<div className='hLeftBoard'>
-						<em><h3 className='tHeadL'>Standard Level</h3></em>
+						<em><h3 className='tHeadL'><br/>Standard Level</h3></em>
 						<em><p className='tBotL'>Suitable for schools and lay <br/>audiences.</p></em>
 				    </div>
 					<div className='hLeftLinker'><CardList Courses={CoursesStan} /></div>
