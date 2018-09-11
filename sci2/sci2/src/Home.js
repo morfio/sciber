@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Button } from 'react-bootstrap';
 //import Navigation from './Navigation';
 //import Footer from './Footer';
 import ScrollBox from './ScrollBox';
@@ -13,9 +14,9 @@ import genes from './images/Genetic_Engineering_off.gif';
 import vaccine from './images/Vaccinations_off.gif';
 import evo from './images/Evolution_off.gif';
 //import clinic from '/images/ClinicalTrials_off.gif';
-import Button from './Button';
+// import Button from './Button';
 
-
+// const Button = styled.button`/* ... */`
 class Home extends Component {
 	constructor(props){
 	  super(props);	
@@ -35,7 +36,9 @@ class Home extends Component {
 							<p>SciberBrain is a collection of resources to stimulate group
 							 discussions about controversial aspects of science. Choose the level and topic
 						    (below) for your group and away you go.</p>
-						    <Button/>
+						    <Button bsStyle="primary" bsSize="large">
+     							Large button
+    						</Button>
 						</article>
 		            </div>
 					<div className='sImage'>
@@ -53,7 +56,7 @@ class Home extends Component {
 				</div>
 				<div className='headRight'>
 					<div className='hRightBoard'>
-						<em><h3 className='tHead'>Advanced Level</h3></em>
+						<em><h3 className='tHead'><br/>Advanced Level</h3></em>
 						<em><p className='tBot'>Suitable for schools and lay <br/>audiences.</p></em>
 				    </div>
 					<div className='hRightLinks'><CardList Courses={CoursesStan} /></div>

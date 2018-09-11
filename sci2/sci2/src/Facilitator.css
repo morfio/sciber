@@ -1,0 +1,94 @@
+.faccontainer{
+	height:auto;
+	width:auto;
+	margin: 20px;
+	background-color: #ffff;
+	display: grid;
+	grid-template-rows: 1fr 5fr .5fr;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-areas: 
+	"course . . . . ."
+	"fac fac fac fac fac fac"
+	"fac fac fac fac fac fac"
+	"fac fac fac fac fac fac"
+	"fac fac fac fac fac fac"
+	"fac fac fac fac fac fac"
+	"spa spa spa spa spa spa"
+}
+.courselinks{
+	grid-area: course;
+}
+.Facilitator{
+	grid-area:fac;
+	margin:3px;
+	padding: 20px;
+	max-width: auto;
+	display:grid;
+	grid-template-rows: .75fr, repeat(7, 1fr);
+	grid-template-columns: repeat(6,1fr);
+	grid-template-areas: 
+	"buttons buttons buttons buttons buttons buttons"
+	"he1 he1 he1 he1 he1 he1"
+	"llist llist llist llist llist llist"
+	"llist llist llist llist llist llist"
+	"llist llist llist llist llist llist"
+	"llist llist llist llist llist llist"
+	"llist llist llist llist llist llist"
+	"llist llist llist llist llist llist"
+	"endlist endlist endlist endlist endlist endlist";
+	background-color: #ecf4f9;
+
+}
+.space{
+	grid-area: spa;
+}
+.buttons{
+	background-color: #ffff;
+	width:100%;
+	
+}
+.he1{
+	grid-area:he1;
+}
+.llist{
+	grid-area:llist;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(5, 1fr);
+	grid-template-areas: 
+	"he2"
+	"he3"
+	"he4"
+	"he5"
+	"he6"
+	"he7";
+}
+.facil{
+	background-color: #ecf4f9;
+}
+.llist{
+	grid-area: llist;
+	}
+.endlist{
+	grid-area:endlist;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+    display: none;
+    width: 100%;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 360px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+}

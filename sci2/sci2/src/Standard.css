@@ -1,0 +1,153 @@
+.Standard{
+	width:950px;
+	padding:1em;
+	display:grid;
+	border:;
+	grid-template-columns: 1fr;
+	grid-template-rows: ;
+	grid-template-areas: 
+	
+	"navro"
+	"content"
+	"cardlinks";
+
+}
+@media only screen and (max-width: 980px){
+    .show{
+        font-size: .9em;
+        grid-gap: 0em;
+    }
+ }
+ @media only screen and (max-width: 768px){
+    .show{
+        font-size: .7em;
+        grid-gap: 0em;
+    }
+ }
+
+ @media only screen and (max-width: 568px){
+    .show{
+        font-size: .5em;
+        grid-gap: 0em;
+    }
+ }
+ @media only screen and (max-width: 500px){
+    .show{
+        font-size: .4em;
+        grid-gap: 0em;
+    }
+ }
+
+ @media only screen and (max-width: 422px){
+    .show{
+        font-size: .3em;
+        grid-gap: 0em;
+    }
+ }
+
+.content {
+  grid-area: content;
+  width: auto;
+  padding:1em;
+}
+.slidesho{
+
+  width: auto;
+  height: 100%;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: mandatory;
+  /* older spec implementation */
+  scroll-snap-destination: 0% 100%;
+  scroll-snap-points-x: repeat(100%);
+}
+.show{
+	flex-shrink: 0;
+	display:grid;
+	width:100%;
+	height:100%;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+	scroll-snap-align: start;
+	grid-template-areas: 
+	"bText bImage";
+}
+.bText{
+	background-color: #ecf4f9;
+	height: 100%;
+  width:100%;
+}
+.bImage{
+	height: 100%;
+  width:100%;
+}
+
+/*Slideshow config
+*/
+
+
+.courses{
+	display:grid;
+	width:7.8em;
+	max-height:3.1em;
+	grid-template-rows: 1fr;
+	grid-auto-columns: repeat(7, 1fr);
+	grid-template-areas: 
+
+	"1 2 3 4";
+
+}
+.cardlinks{
+
+}
+/*.hLeftLinks{
+   height: auto;
+   width:100%;
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   grid-auto-rows: minmax(10.5em, auto);
+   background: #E6F7FB;
+}
+.hLeftLinks > spans {
+ 	grid-area: spans;
+ 	display: flex;
+  justify-content: center;
+  align-items: center;
+	padding:  .5em;
+  grid-column-gap: 1em;
+	
+}*/
+
+.navro{
+	grid-area: navro;
+	height:50px;
+	width: auto;
+	grid-row: 3;
+	grid-column: 1 / 7;
+	background-color: #2774af;
+	opacity: 0.6;
+	z-index: 0;
+	
+}
+
+.nav{
+	grid-area:nav;
+
+}
+.listhead{
+  display:grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-column-gap: .5em;
+  background: #E6F7FB;
+  padding:  1.5em;
+  grid-template-areas: 
+  "items items items items items items items";
+}
+
+.items{
+  grid-area: items;
+  padding:  1.5em;
+}

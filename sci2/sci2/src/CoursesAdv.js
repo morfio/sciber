@@ -6,55 +6,49 @@ import brain from './images/Brain_Chemistry_off.gif';
 import evolution from './images/Evolution_off.gif';
 import pgd from './images/pgd_off.gif';
 
-export const CoursesStan = [
+
+export const CoursesAdv = [
   {
   	id:1,
-  	vidsource: 'Kz8LgAsUAgE',
+  	vidsource: 'https://youtu.be/ARFgcoOrIpU',
   	title: 'Stem Cells',
-  	img:Stem,
-    topic:'Stem'
+  	img:Stem
   },
   {
   	id:2,
-  	vidsource: 'fZrL7h2aqZQ',
+  	vidsource: 'https://youtu.be/fSHQmzsQEv8',
   	title: 'Genetic Engineering',
-  	img: genes,
-    topic:'Genes'
+  	img: genes
   },
   {
   	id:3,
-  	vidsource: 'rt4J47lQT5Q',
+  	vidsource: 'https://youtu.be/GJQkbICY6ec',
   	title: 'Brain Chemistry',
-  	img:brain,
-    topic:'Brain'
+  	img:brain
   },
   {
   	id:4,
-  	vidsource: 'https://youtu.be/rt4J47lQT5Q',
+  	vidsource: 'https://youtu.be/WnREhRUmK_g',
   	title: 'Vaccinations',
-  	img:vaccine,
-    topic:'Vaccinations'
+  	img:vaccine
   },
   {
   	id:5,
-  	vidsource: 'https://youtu.be/rt4J47lQT5Q',
+  	vidsource: 'https://youtu.be/y15o0HxzPPU',
   	title: 'Cinical Trials',
-  	img:clinic,
-    topic:'Clinic'
+  	img:clinic
   },
   {
   	id:6,
-  	vidsource: 'https://youtu.be/rt4J47lQT5Q',
+  	vidsource: 'https://youtu.be/GEQJcU6p4W8',
   	title: 'Evolution',
-  	img:evolution,
-    topic:'Evolution'
+  	img:evolution
   },
 
   {
   	id:7,
-  	vidsource: 'https://youtu.be/rt4J47lQT5Q',
+  	vidsource: 'https://s3.eu-west-2.amazonaws.com/ppl-offline/PGD_Advanced.mp4',
   	title: 'pgd',
-  	img:pgd,
-    topic:'PGD'
+  	img:pgd
   }
 ];

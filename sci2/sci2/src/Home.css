@@ -1,7 +1,7 @@
 .container{
 	display:grid;
     width:  minmax(12em, 56em);
-    height:auto;
+    height:100%;
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows:  repeat(3, 1fr);
     grid-template-areas: 
@@ -11,7 +11,8 @@
     background-color: #ffff;
     padding-right: 2em;
     padding-left: 2em;
-    grid-gap: .5em;
+    /*grid-gap: .5em;*/
+    /*grid-gap: 0em;*/
   }
 @media only screen and (max-width: 980px){
     .container{
@@ -77,6 +78,7 @@ img{
 .headLinks{
 	grid-area: hd;
     display:grid;
+    height: auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:repeat(4, 1fr);
     grid-template-areas: 
@@ -109,7 +111,7 @@ img{
     flex-direction: column;
     align-items: flex-end;
     flex-wrap: wrap;
-    /*padding: .5em;*/
+    padding: .5em;
     
 }
 /*.tHeadL{

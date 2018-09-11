@@ -1,9 +1,10 @@
 body {
-  margin: 0em auto;
+  margin: 0em 0em;
   width:auto;
+  height: auto;
   max-width: 61.25em;
   padding: 0em;
-  /*background-image: url("./images/tile2.jpg");*/
+  background-image: url("./images/tile2.jpg");
   font-family: sans-serif;
   font-size: 20px;
 }
