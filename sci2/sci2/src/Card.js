@@ -1,30 +1,31 @@
 import React,  { Component } from  'react';
-import Page from './Page';
-
-
 import { Link, Route } from 'react-router-dom';
+import Page from './Page';
+// import CardList from './CardList';
+
 
 const Card = ({vidsource, title, img, topic, match}) => {
 	return(
 		<div className='spans'>
-			<Link  to={{
-						pathname: `/Standard/${topic}`,
-						state:{
-								topic: 'stem'
-							}, 
-						  
-						title:{title}, 
-						vidsource:{vidsource}
-					}}> 
-				<img src={img} topic={topic} />
-			</Link>	
-
+			<Link  to={`/Standard/${topic}`}>
+				<div className='spans'>
+					
+						<img src={img} topic={topic} />
+							
+				</div>
+			</Link>
 		
 		</div>
-
 		
 		);
 }
 export default Card;
 
 
+// <div className='spans'>
+// 			<Link  to={`/Standard/${topic}`}> 
+// 				<img src={img} topic={topic} />
+// 			</Link>	
+
+		
+// 		</div>

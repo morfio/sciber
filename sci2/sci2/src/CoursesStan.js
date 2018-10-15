@@ -12,21 +12,21 @@ export const CoursesStan = [
   	vidsource: 'Kz8LgAsUAgE',
   	title: 'Stem Cells',
   	img:Stem,
-    topic:'Stem'
+    topic:'Stem-Cells'
   },
   {
   	id:2,
   	vidsource: 'fZrL7h2aqZQ',
-  	title: 'Genetic Engineering',
+  	title: 'GeneticEngineering',
   	img: genes,
-    topic:'Genes'
+    topic:'Genetic-Engineering'
   },
   {
   	id:3,
   	vidsource: 'rt4J47lQT5Q',
   	title: 'Brain Chemistry',
   	img:brain,
-    topic:'Brain'
+    topic:'Brain-Chemistry'
   },
   {
   	id:4,
@@ -38,9 +38,9 @@ export const CoursesStan = [
   {
   	id:5,
   	vidsource: 'https://youtu.be/rt4J47lQT5Q',
-  	title: 'Cinical Trials',
+  	title: 'Cinical-Trials',
   	img:clinic,
-    topic:'Clinic'
+    topic:'Cinical Trials'
   },
   {
   	id:6,

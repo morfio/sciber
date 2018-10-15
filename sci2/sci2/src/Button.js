@@ -16,7 +16,7 @@ class Button extends Component{
   
   render(){
     return(
-      <button className='navButton' onClick={this.clicked}>
+      <button className='navButton' onClick={this.props.onClick} >
       	{this.state.counter}
       </button>
     );

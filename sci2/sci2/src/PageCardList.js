@@ -1,21 +1,26 @@
 import React from 'react';
-import {PCardList} from './PageCardList';
+import {PCardList} from './PageCardAPI';
 import PageCard from './PageCard';
 
-const PageCardList = ({PCardList}) => {
+const PageCardList = ({PCardList, matchi}) => {
 
 	return (
 		<div>
 			{
 				PCardList.map((cor, inde) => {
 					return (
-						<PageCard 
-							key={inde}
-							img={PCardList[inde].img}
-							vidsource={PCardList[inde].vidsource}
-							title={PCardList[inde].title}
+						
+							<PageCard 
+								key={inde}
+								img={PCardList[inde].img}
+								vidsource={PCardList[inde].vidsource}
+								title={PCardList[inde].title}
+								topic={PCardList[inde].topic}
+								matchi={matchi}
+								/>
+						
 
-						/>
+						
 						)
 
 				})

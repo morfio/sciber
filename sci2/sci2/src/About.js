@@ -30,7 +30,7 @@ const About = () => {
 								</p>
 							</div>
 						</div>
-					</li >
+					</li>
 					<li className='under'><div className='dropdown'>
 							<p >
 								About the project

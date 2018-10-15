@@ -1,9 +1,10 @@
 import React from 'react';
+import './Activity.css';
 import BigCard from './BigCard';
 
 const Activity = ({Activity}) => {
 	return(
-		<div>
+		<div className='activityCard'>
 			{Activity.map((activity, index) =>
 				{
 					return(

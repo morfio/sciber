@@ -1,9 +1,9 @@
 import React from 'react';
-import Discuss from './Discuss.css';
+import './Discuss.css';
 
 
 
-const About = () => {
+const Discuss = () => {
 
 	return(
 			<div className='discussMain'>
@@ -11,23 +11,40 @@ const About = () => {
 					<li className='under'>
 						<div className='dropdown'>
 							<p>
+								Student led discussion
+							</p>
+							<div className='dropdown-content'>
+								<ol>
+									<li>Find some people to have a discussion with (4 – 8 is perfect)</li>
+									<li>Go back to 'some opinions' and pick an opinion to discuss</li>
+									<li>Come up with some open-ended questions and vote on which question would be the most interesting to discuss</li>
+									<li>Start off by getting one person to ensure everyone is clear about the question and another to say why they think it is interesting</li>
+									<li>Take turns to discuss your views and try to follow on from what was said before.</li>
+								</ol>
+							</div>
+						</div>
+					</li>
+					<li className='under'>
+						<div className='dropdown'>
+							<p>
+								Teacher led discussion
+							</p>
+							<div className='dropdown-content'>
+								<article>
+									<span>Study the 'some opinions' section and come up with 10 questions about the topic. Try to include some open-ended questions (without a definite right or wrong answer).</span>
+									<span>Bring your questions to the next lesson</span>
+								</article>
+							</div>
+						</div>
+					</li>
+					<li className='under'>
+						<div className='dropdown'>
+							<p>
 								How to use SciberBrain
 							</p>
 							<div className='dropdown-content'>
 								<p>
-									SciberBrain is a collection of free resources for addressing controversial aspects of Genetic engineering, Stem cells, Vaccinations, Evolution, Clinical trials and Brain chemistry. 
-
-									Resources have been differentiated for two ability levels: Standard (KS3/4) and NEW Advanced (post-16). Resources include background science presentations, dialogue stimuli, videos and quizzes which have been selected by teachers and scientists from a range of sources. 
-
-									 Step 1: Select the topic you would like your students/audience to discuss  
-
-									Step 2: Show the background science presentation to your class/audience 
-
-									Step 3: Get students/participants to explore the interactive links and opinions  
-
-									Step 4: Have an informed class/group discussion
-
-									See the Facilitators section for lesson plans, event ideas and dialogue facilitation tips 
+									Online discussion Coming soon!!
 								</p>
 							</div>
 						</div>
@@ -36,3 +53,4 @@ const About = () => {
 			</div>
 			);
 }	
+ export default Discuss;

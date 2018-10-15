@@ -20,7 +20,7 @@
 }
 .Facilitator{
 	grid-area:fac;
-	margin:3px;
+	margin:3em;
 	padding: 20px;
 	max-width: auto;
 	display:grid;
@@ -49,6 +49,9 @@
 }
 .he1{
 	grid-area:he1;
+}
+.he2{
+	grid-area: he2;
 }
 .llist{
 	grid-area:llist;
@@ -91,4 +94,13 @@
 
 .dropdown:hover .dropdown-content {
     display: inline-block;
+}
+.under{
+     border-bottom: 2px solid #93c8e0;
+}
+
+.facNav{
+	display: flex;
+	justify-content: space-around;
+
 }

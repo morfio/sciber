@@ -1,24 +1,31 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React from  'react';
+import {Link, Route} from 'react-router-dom';
 import activitiesInactive from './images/activities-inactive.gif';
-import PCardList from './PageCardList';
+import Board from './Board';
+// import PCardList from './PageCardList';
 import ('./PageCard.css');
 //bg-light-green dib br3 h-100 grow h4 ma1
+// TOPIC IS UNDEFINED PROBLEM
 
-const PageCard = ({img, title, topic, match}) => {
-
+const PageCard = ({img, title, topic, matchi,toBeGot}) => {
 	return (
 		<div className='br3 grow ma1 bg-dark-red ba b--red dib bw2 top'>
-			<Link to='/Standard/:topic'>
+			<Link to={`${matchi}/${title}`}>
+				
 				<img className='dib' src={img} />
-				<div>	
-					<p className='tc text fw7 bg-dark-red'>{title}</p> topic={topic}
-						title={title}
+				<div className='pCardTitle'>	
+					<p className='tc text fw7 bg-dark-red'>{title}</p>					
+					
 				</div>
-			</Link>
+			
+		  	</Link>
+
 		  	
 		</div>
-		)
+		);
 }
 
 export default PageCard;
+
+// <Route path={`${matchi}/:section`} component={Board} />
+// {console.log(topic)};

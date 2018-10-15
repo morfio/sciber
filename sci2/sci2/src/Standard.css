@@ -1,8 +1,12 @@
+/*.standardTop{
+  padding-right: 2em;
+  padding-left: 2em;
+}*/
 .Standard{
-	width:950px;
-	padding:1em;
+	/*max-width:960px;
+  margin: 0em 2em 0em 2em;
+	padding:1em;*/
 	display:grid;
-	border:;
 	grid-template-columns: 1fr;
 	grid-template-rows: ;
 	grid-template-areas: 
@@ -48,7 +52,9 @@
 .content {
   grid-area: content;
   width: auto;
-  padding:1em;
+  padding-left:2em;
+  padding-right:2em;
+
 }
 .slidesho{
 
@@ -123,7 +129,7 @@
 
 .navro{
 	grid-area: navro;
-	height:50px;
+	height:1.5em;
 	width: auto;
 	grid-row: 3;
 	grid-column: 1 / 7;
@@ -132,13 +138,27 @@
 	z-index: 0;
 	
 }
-
+.topBNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding:0 1em;
+}
 .nav{
 	grid-area:nav;
 
 }
+li {
+  list-style-type: none;
+}
 .listhead{
   display:grid;
+  width:auto;
   grid-template-columns: repeat(7, 1fr);
   grid-column-gap: .5em;
   background: #E6F7FB;

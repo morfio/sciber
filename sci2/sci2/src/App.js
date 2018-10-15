@@ -16,14 +16,20 @@ import CardList from './CardList';
 import Footer from './Footer';
 import { CoursesStan } from './CoursesStan';
 import HcardLinks from './HcardLinks';
-import Test from './test1';
-
+import Board from './Board';
+import PageCardList from './PageCardList';
+import show from './show';
+import {Lesson} from './Facilitator';
+import {Curriculum} from './Facilitator';
+import {Public} from './Facilitator';
+import {FacHeader} from './Facilitator';
 
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 
 class App extends Component {
   
- /*addd all routes hers and call them from respective pages wit link*/ 
+ /*addd all routes hers and call them from respective pages wit link
+ <Route path="/Standard/:topic/" render={(props) => <Page vidsource ={vidsource} />} />*/ 
 
   render() {
     return (
@@ -34,11 +40,16 @@ class App extends Component {
               <Navigation />
               <Route exact path="/" component={Home} />
               <Route exact path="/Standard" component={Standard} />
-                <Route  path="/Standard/:topic" component={Page} />
-                  <Route path="/Standard/:topic/:section" component={Page} />
-              <Route  path="/Advanced" component={Advanced} />
+              <Route  path="/:aoc/:dpd/:section" component={Board} />
+                <Route  path="/Standard/:topic" component={Page} /> 
+              <Route exact path="/Advanced" component={Advanced} />
                 <Route  path="/Advanced/:topic" component={Page} />
-              <Route  path="/Facilitator" component={Facilitator} />
+                  <Route path="/Advanced/:topic/:section" component={Board} />
+              <Route  path="/Facilitator" component={FacHeader} />
+                <Route exact path="/Facilitator/Public" component={Public} />
+                <Route  path="/Facilitator/Lesson" component={Lesson} />
+                <Route  path="/Facilitator/Curriculum" component={Curriculum} />
+
               <Route  path="/About" component={About} />
               <Route  path="/HcardLinks" component={HcardLinks} />
             </div>

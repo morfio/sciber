@@ -10,34 +10,31 @@ export const PCardList = [
   	title: 'Science',
   	img:brain,
     topic:'Science'
+    
   },
   {
   	id:2,
-  	vidsource: 'https://youtu.be/fZrL7h2aqZQ',
   	title: 'Opinion',
   	img: opinionActive,
     topic:'Opinion'
   },
   {
   	id:3,
-  	vidsource: 'https://youtu.be/rt4J47lQT5Q',
-  	title: 'Brain Chemistry',
+  	title: 'Activities',
   	img:discussActive,
-    topic:'Brain'
+    topic:'Activities'
   },
   {
   	id:4,
-  	vidsource: 'https://youtu.be/rt4J47lQT5Q',
-  	title: 'Vaccinations',
+  	title: 'Quiz',
   	img:theQuizActive,
-    topic:'Vaccinations'
+    topic:'Quiz'
   },
   {
   	id:5,
-  	vidsource: 'https://youtu.be/rt4J47lQT5Q',
-  	title: 'Cinical Trials',
+  	title: 'Discussion',
   	img:discussActive,
-    topic:'Clinic'
+    topic:'Discussion'
   }
 ];
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import HcardLinks from './HcardLinks';
+import {NavLink} from 'react-router-dom';
+import HcardLinksAdv from './HcardLinksAdv';
 import Navigation from './Navigation';
 import './index.css';
 import  './Standard.css';
@@ -10,143 +11,151 @@ import Clinical from './images/Clinical_Trials.gif';
 import Evolution from './images/Evolution.gif';
 import Brains from './images/Brain_Chemistry.gif';
 // import Brains from './images/Brain_Chemistry.gif';
+import {NavHeader} from './NavHeader';
 import Footer from './Footer';
+
+
+const NavLinksAdv = [{nav:'/Advanced/Stem-Cells',text:'Stem Cells'},
+					{nav:'/Advanced/Genetic-Engineering',text:'Genetic Engineering'},
+					{nav:'/Advanced/Brain-Chemistry',text:'Brain Chemistry '},
+					{nav:'/Advanced/Vaccinations', text:'Vaccinations'},
+					{nav:'/Advanced/Clinical-Trials', text:'Clinical Trials'},
+					{nav:'/Advanced/Evolution', text:'Evolution'},
+					{nav:'/Advanced/PGD', text:'PGD'}]
+
+const Slides = [{header:'Vaccinations',text1:'What are vaccinations and how they work?',
+									text2: 'Why did the MMR vaccination become controversial?',
+									text3: 'Should some vaccinations be compulsory',img:Vaccinations},
+				{header:'Stem-Cells',text1: 'What are stem cells?',
+									text2: 'Why is embryonic stem cell research so interesting to scientists?',
+									text3: 'What can scientists do now with embryonic stem cells?',
+									text4: 'What are the possible implications for society?',img:StemC},
+				{header:'Genetic engineering',
+									text1: 'What is genetic engineering?',
+									text2: 'Why is genetic engineering so interesting to scientists and society?',
+									text3: 'What can scientists do now with genetic engineering?',
+									text4: 'What are the future possible applications of genetic engineering?',img:StemC},
+				{header:'Brain chemistry',
+									text1: 'What are neurons?',
+									text2: 'How do our senses detect external stimuli?',
+									text3: 'How can drugs affect the brain?',
+									text4: 'Why do some people want to alter their brains?',img:Brains},
+				{header:'Evolution',
+									text1: 'What was Charles Darwin’s ‘Natural Selection’ idea?',
+									text2: 'How does it explain new species?',
+									text3: 'What new scientific evidence supports natural selection?',
+									text4: 'Why can teaching evolution in schools be controversial?',img:Evolution},
+				{header:'Clinical trials',
+									text1: 'How are new medicines tested and developed?',
+									text2: 'Who or what should test new medicines?',
+									text3: 'Why do we need more medicines?',
+									text4: 'Who decides how we should test new medicines?',img:Clinical},
+				]
 
 class Standard extends Component {
 	constructor(){
 		super();
 		this.state = {
 			// elements for carddlist
+			counter:0 ,
+			header: 'Clinical trials',
+			text1: 'How are new medicines tested and developed?',
+			text2: 'Who or what should test new medicines?',
+			text3: 'Why do we need more medicines?',
+			text4: 'Who decides how we should test new medicines?',
+			img: Clinical
 		}
+		this.setScroll  = this.setScroll.bind(this); 
+	  	this.onClock = this.onClock.bind(this);
+	  	this.forward = this.forward.bind(this);
 	}
-	render (){
+
+	forward() {
+		this.onClock();
+		this.setScroll();
+	}
+
+	onClock() { 
+		//get present value of counter
+		let newCount = this.state.counter + 1;
+		//roll back if at limit of array
+		if (newCount >= Slides.length){
+			newCount = 0;
+		} else {
+			newCount = newCount;
+		}
+		//update counter value
+		this.setState({
+			counter: newCount
+		})
+
+	}
+	setScroll() {
+		const presentScroll = Slides[this.state.counter];
+		console.log(presentScroll)
+		//Define keys of template
+		const header = presentScroll.header;
+		const t1 = presentScroll.text1;
+		const t2 = presentScroll.text2;
+		const t3 = presentScroll.text3;
+		const t4 = presentScroll.text4;
+		const img = presentScroll.img;
+		//set State to required values
+		this.setState({			
+			header: header,
+			text1: t1,
+			text2: t2,
+			text3: t3,
+			text4: t4,
+			img:img
+		})
+
+	}	
+	render ()  {
 		return(
-				<div >
+				<div>
+		
 					
-					<div className='navro'>
-					  <div>
-						  <span><a href='#'> Home </a></span>
-						  <span><a href='#'> Standard Level </a></span>
-						  <span><a href='#'> Advanced Level </a></span>
-						  <span><a href='#'> Facilitators </a></span>
-						  <span><a href='#'> About </a></span>
-					  </div>
-					  <div><span><a href='./New'>Home</a> / <a href='./ScrollBox'>Advanced Level</a></span></div>
-					</div>
+						<div className='navro'><NavHeader NavLinks={NavLinksAdv} /></div>					  
+					  	
+					
 					
 					
 					<div className='content'>
 						<div className='stanhead'>
+						<div className='topBNav'><span><NavLink to='/Standard'>Standard Level</NavLink> / <NavLink to='/Advanced'>Advanced Level</NavLink></span></div>
 							<h2>Advanced Level</h2>
 						</div>
 						<div>
 							<div className='slidesho'>
 								<div className='Vaccinations show'>
 								  <div className='bText'>
-									<h3>Vaccinations</h3>
+									<h3>{this.state.header}</h3>
 									<ul>
-										<li><p>What are vaccinations and how they work?</p></li>
-										<li><p>Why did the MMR vaccination become controversial?</p></li>
-										<li><p>Should some vaccinations be compulsory</p></li>
-										<li><p></p></li>
+										<li><p>{this.state.text1}</p></li>
+										<li><p>{this.state.text2}</p></li>
+										<li><p>{this.state.text3}</p></li>
+										<li><p>{this.state.text4}</p></li>
 									</ul>
 								  </div>
 								  <div className='bImage'>
-							  			<img src={Vaccinations}/>
-								  </div>	
-								</div>
-								<div className='Stem Cells show'>
-								  <div className='bText'>
-									<h3>
-										Stem Cells
-									</h3>
-									<ul>
-										<li><p>What are stem cells?</p></li>
-										<li><p>Why is embryonic stem cell research so interesting to scientists?</p></li>
-										<li><p>What can scientists do now with embryonic stem cells? </p></li>
-										<li><p>What are the possible implications for society?</p></li>
-									</ul>
+							  			<img src={this.state.img}/>
 								  </div>
-
-								  <div className='bImage'>
-							  			<img src={StemC}/>
-								  </div>	
+								  <button onClick={this.forward}></button>	
 								</div>
-								<div className='Genetic show'>
-								  <div className='bText'>
-									<h3>
-										Genetic engineering
-	       							</h3>
-									<ul>
-										<li><p>What is genetic engineering?</p></li>
-										<li><p>Why is genetic engineering so interesting to scientists and society?</p></li>
-										<li><p>What can scientists do now with genetic engineering?</p></li>
-										<li><p>What are the future possible applications of genetic engineering?</p></li>
-									</ul>
-								  </div>
-								  <div className='bImage'>
-							  			<img src={StemC}/>
-								  </div>	
-								</div>
-								<div className='Brain show'>
-								   <div className='bText'>
-									<h3>       
-										Brain chemistry			
-									</h3>
-									<ul>
-										<li><p> What are neurons?</p></li>
-										<li><p>How do our senses detect external stimuli?</p></li>
-										<li><p>How can drugs affect the brain?</p></li>
-										<li><p>Why do some people want to alter their brains?</p></li>
-									</ul>
-								   </div>
-								   <div className='bImage'>
-							  			<img src={Brains}/>
-								   </div>	
-								</div>
-								<div className='Evolution show'>
-								  <div className='bText'>
-									<h3>
-										Evolution
-	     							</h3>
-									<ul>
-										<li><p>What was Charles Darwin’s ‘Natural Selection’ idea?</p></li>
-										<li><p>How does it explain new species?</p></li>
-										<li><p>What new scientific evidence supports natural selection?</p></li>
-										<li><p>Why can teaching evolution in schools be controversial?</p></li>
-									</ul>
-								  </div>
-								  <div className='bImage'>
-							  			<img src={Evolution}/>
-								  </div>	
-								</div>
-								<div className='Clinical trials show'>
-								  <div className='bText'>
-									<h3>
-	    								Clinical trials
-	    							</h3>
-									<ul>
-										<li><p>How are new medicines tested and developed? </p></li>
-										<li><p>Who or what should test new medicines?</p></li>
-										<li><p>Why do we need more medicines?</p></li>
-										<li><p>Who decides how we should test new medicines?</p></li>
-									</ul>
-								  </div>
-								  <div className='bImage'>
-							  			<img src={Clinical}/>
-								  </div>
+								
 								</div>	
 							</div>
 						</div>	
 						<div className='cardlinks'>
-						<HcardLinks Courses ={CoursesAdv}/>
+						<HcardLinksAdv Courses={CoursesAdv}/>
 						</div>
-					</div>
-						
-				</div>
-				)
+					</div>						
+				
+				);
 		}
 		
 }
+				
 
 export default Standard;

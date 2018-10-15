@@ -90,7 +90,27 @@
 	z-index: 0;
 	
 }*/
-
+.navro{
+	grid-area: navro;
+	height:2em;
+	width: auto;
+	grid-row: 3;
+	grid-column: 1 / 7;
+	background-color: #2774af;
+	opacity: 0.6;
+	z-index: 0;
+	
+}
+.topBNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .nav{
 	grid-area:nav;
 

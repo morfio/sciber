@@ -1,8 +1,9 @@
 .navheader{
 	height:7em;
 	width:auto;
+	/*margin: 0em 2em 0em 2em;*/
 	display:grid;
-	grid-template-columns: repeat(8, 7.7em);
+	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(4, 2.4em);
 	grid-template-areas: 
 	"logo .    .  .    .         .           .          ."
@@ -68,15 +69,15 @@
 .logo{
 	grid-area: logo;
 	z-index: 1;
-	width: 80%;
+	width: auto;
     height: 100%;
     object-fit: cover;
 }
 .logtext{
 	grid-area:logtext;
-	width: 100%;
+	width: auto;
     height: 100%;
-    object-fit: cover;
+    /*object-fit: cover*/;
 }
 .headText{
 	grid-area:headText;
@@ -88,9 +89,12 @@
 	overflow:hidden;
 	/*background-color: #4a90c0;*/
 	grid-area:nav;
-	display:grid;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 	grid-template-rows: 1fr;
-	grid-template-columns: repeat(8, 7em);
+	grid-template-columns: repeat(8, 6em);
 	grid-template-areas: 
 	". . .  Home Standard Advanced Facilitators about";
 	
@@ -122,10 +126,12 @@
 	grid-column: 1 / 9;
 	background-color: #4a90c0;
 	opacity: 0.4;
+	overflow:hidden;
 	z-index: 0;
 }
 a{
-	width: 100%;
+	width: auto;
+	text-decoration: none;
 }
 a.active {
 	color: blue;

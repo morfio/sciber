@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Board.css';
 import { Link } from 'react-router-dom';
 import TopicAPI2 from './test1';
 import Youtube from 'react-youtube';
@@ -7,6 +8,7 @@ import Opinion from './Opinion';
 import PageCardList from './PageCardList';
 import PageCardAPI from './PageCardAPI';
 import {PCardList} from './PageCardAPI';
+import Discuss from './Discuss.js'
 
 
 // board will be passed props of this.props.match.url as matchi
@@ -41,7 +43,9 @@ class Board extends Component {
 				return <Activity Activity={this.state.Activity} />
 			} else if (got === 'Quiz') {
 					return JSON.stringify(this.state.Quiz);
-			}else {
+			}else if (got === 'Discussion') {
+				return <Discuss />
+			}else{
 				return <Youtube 
 						videoId = {this.state.Vidsource}
 				 		
@@ -72,35 +76,18 @@ class Board extends Component {
 	componentDidMount(){
 		this.grabTop();
 
+
 	}
 
-//{
-	// 	const top = TopicAPI2.jet(this.props.match.params.dpd);
-	// 	const activty = top.activities;
-	// 	const opinion = top.opinion;
-	// 	this.setState((top) => {
-	// 		Subject:top.activities
 
-	// 	})
-
-		
-	// 	{console.log(top)}
-	// 	{console.log(activty)}
-	// 	{console.log(opinion)}
-
-	// }
 	render(){
 		
-	// const topi = TopicAPI2.jet(this.props.match.params.dpd);
-	//<h1>Iam board</h1>
-					// {console.log(this.props)}
-			 	// 	{console.log(this.props.match.params.section)}
-			 	// 	{console.log(this.props.match.params.dpd)}
-			 	//<PageCardList PCardList={PCardList} matchi={this.props.match.url} toBeGot={this.props.match.params.topic} />
-
+	
 		return(
-				<div>
-				{this.grabType()}
+				<div className='boardMain'>
+				<div>{this.grabType()}</div>
+				<div></div>
+				
 				
 					
 				</div>

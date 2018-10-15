@@ -11,44 +11,44 @@ export const CoursesAdv = [
   {
   	id:1,
   	vidsource: 'https://youtu.be/ARFgcoOrIpU',
-  	title: 'Stem Cells',
+  	topic: 'Stem-Cells',
   	img:Stem
   },
   {
   	id:2,
   	vidsource: 'https://youtu.be/fSHQmzsQEv8',
-  	title: 'Genetic Engineering',
+  	topic: 'Genetic-Engineering',
   	img: genes
   },
   {
   	id:3,
   	vidsource: 'https://youtu.be/GJQkbICY6ec',
-  	title: 'Brain Chemistry',
+  	topic: 'Brain-Chemistry',
   	img:brain
   },
   {
   	id:4,
   	vidsource: 'https://youtu.be/WnREhRUmK_g',
-  	title: 'Vaccinations',
+  	topic: 'Vaccinations',
   	img:vaccine
   },
   {
   	id:5,
   	vidsource: 'https://youtu.be/y15o0HxzPPU',
-  	title: 'Cinical Trials',
+  	topic: 'Clinical-Trials',
   	img:clinic
   },
   {
   	id:6,
   	vidsource: 'https://youtu.be/GEQJcU6p4W8',
-  	title: 'Evolution',
+  	topic: 'Evolution',
   	img:evolution
   },
 
   {
   	id:7,
   	vidsource: 'https://s3.eu-west-2.amazonaws.com/ppl-offline/PGD_Advanced.mp4',
-  	title: 'pgd',
+  	topic: 'pgd',
   	img:pgd
   }
 ];
