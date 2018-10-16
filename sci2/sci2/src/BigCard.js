@@ -6,14 +6,22 @@ import { Link, Route } from 'react-router-dom';
 const BigCard = ({img, tag, text,links}) => {
 	return(
 		<div className='bigCard'>
-			<Link to='/:Level/:topic/:section'>
+			<a href={links}>
+				<div className="banner">
 				<img src={img}  className='bigImg'/>
 				<p className='bigTag'>{tag}</p>
-				<p className='bigText'>{text}</p>
-			</Link>
+				</div>
+				<p className='bigText'>{text}</p>		
+				<a href="www.google.com"></a>
 			
+			</a>
 		</div>
 		)
 }
 
 export default BigCard;
+
+// <Link to='/:Level/:topic/:section'>
+// </Link>
+// <Link to={links} replace={true}></Link>
+// <a href="{links}"></a>

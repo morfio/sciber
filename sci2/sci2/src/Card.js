@@ -7,7 +7,7 @@ import Page from './Page';
 const Card = ({vidsource, title, img, topic, match}) => {
 	return(
 		<div className='spans'>
-			<Link  to={`/Standard/${topic}`}>
+			<Link  to={`/Standard/${topic}/Science`}>
 				<div className='spans'>
 					
 						<img src={img} topic={topic} />

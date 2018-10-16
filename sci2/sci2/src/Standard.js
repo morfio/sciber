@@ -126,7 +126,7 @@ class Standard extends Component {
 					<div className='content'>
 						<div className='stanhead'>
 						<div className='topBNav'><span><NavLink to='/Standard'>Standard Level</NavLink> / <NavLink to='/Advanced'>Advanced Level</NavLink></span></div>
-						<h2 className=''>Standard Level</h2>
+						<span className="wideHead"><p className='headWide'>Standard Level</p></span>
 						</div>
 						<div>
 							<div className='slidesho'>

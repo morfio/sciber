@@ -21,12 +21,15 @@ class Quiz extends React.Component {
 	}
 
 	getInitialState() {
+		const quiz = this.props.questionData
 		return {
-			questionData: [
-                {question: "This is the capital of which country? Canberra", answers: ["Turkey","Australia","Cuba","Algeria"], correct: 1},
-                {question: "This is the capital of which country? Bangkok", answers: ["Argentina","Thailand","India","United Kingdom"], correct: 1}],
-            progress: 0,
-            score: 0
+			// questionData: [
+   //              {question: "This is the capital of which country? Canberra", answers: ["Turkey","Australia","Cuba","Algeria"], correct: 1},
+   //              {question: "This is the capital of which country? Bangkok", answers: ["Argentina","Thailand","India","United Kingdom"], correct: 1}],
+   			 {quiz}
+             progress: 0,
+             score: 0
+   				
 		};
 	}
 

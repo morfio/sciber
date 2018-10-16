@@ -1,9 +1,10 @@
 import React from 'react';
+import './Opinion.css';
 import BigCard from './BigCard';
 
  const Opinion = ({ Opinion}) => {
       return(
-        <div>
+        <div className='opinionCard'>
           {
             Opinion.map((card, index) => {
               return(
@@ -12,7 +13,7 @@ import BigCard from './BigCard';
                   img={Opinion[index].img}
                   tag={Opinion[index].tag}
                   text={Opinion[index].text} 
-                  // links={Opinion.links}
+                  links={Opinion[index].links}
                 />
                   )
             })

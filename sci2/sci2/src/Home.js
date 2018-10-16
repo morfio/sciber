@@ -106,11 +106,11 @@ class Home extends Component {
 							<p>{this.state.bodyText}</p>						    
 						</article>
 						<Button bsStyle="primary" bsSize="large" onClick={this.forward}>
-     							Scroll
+     							Find out more
     					</Button>
 		        </div>
 				<div className='sImage'>
-					  <img  src={this.state.scrollImage} />
+					  <img  src={this.state.scrollImage} className='imgScroll'/>
 				</div>
 			</div>
 					
@@ -119,7 +119,6 @@ class Home extends Component {
 					<div className='hLeftBoard'>
 						<em><h3 className='tHeadL'><br/>Standard Level</h3></em>
 						<em><p className='tBotL'>Suitable for schools and lay <br/>audiences.</p></em>
-
 				    </div>
 					<div className='hLeftLinker'><CardList Courses={CoursesStan} /></div>
 				</div>

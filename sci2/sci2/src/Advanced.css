@@ -115,3 +115,23 @@
 	grid-area:nav;
 
 }
+
+.wideHead{
+  width: 100%;
+}
+
+.headWide{
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  height: 1.5em;
+  background-color: #ecf4f9;
+  padding-left: .5em;
+  /*margin-left: .5em;*/
+  font-size: 2em;
+  border-radius: .75em;
+}
+
+.scrollTopHeader{
+	padding-left: .5em;
+}

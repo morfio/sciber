@@ -15,13 +15,13 @@ import {NavHeader} from './NavHeader';
 import Footer from './Footer';
 
 
-const NavLinksAdv = [{nav:'/Advanced/Stem-Cells',text:'Stem Cells'},
-					{nav:'/Advanced/Genetic-Engineering',text:'Genetic Engineering'},
-					{nav:'/Advanced/Brain-Chemistry',text:'Brain Chemistry '},
-					{nav:'/Advanced/Vaccinations', text:'Vaccinations'},
-					{nav:'/Advanced/Clinical-Trials', text:'Clinical Trials'},
-					{nav:'/Advanced/Evolution', text:'Evolution'},
-					{nav:'/Advanced/PGD', text:'PGD'}]
+const NavLinksAdv = [{nav:'/Advanced/Stem-Cells/Science',text:'Stem Cells'},
+					{nav:'/Advanced/Genetic-Engineering/Science',text:'Genetic Engineering'},
+					{nav:'/Advanced/Brain-Chemistry/Science',text:'Brain Chemistry '},
+					{nav:'/Advanced/Vaccinations/Science', text:'Vaccinations'},
+					{nav:'/Advanced/Clinical-Trials/Science', text:'Clinical Trials'},
+					{nav:'/Advanced/Evolution/Science', text:'Evolution'},
+					{nav:'/Advanced/PGD/Science', text:'PGD'}]
 
 const Slides = [{header:'Vaccinations',text1:'What are vaccinations and how they work?',
 									text2: 'Why did the MMR vaccination become controversial?',
@@ -124,13 +124,13 @@ class Standard extends Component {
 					<div className='content'>
 						<div className='stanhead'>
 						<div className='topBNav'><span><NavLink to='/Standard'>Standard Level</NavLink> / <NavLink to='/Advanced'>Advanced Level</NavLink></span></div>
-							<h2>Advanced Level</h2>
+							<span className="wideHead"><p className='headWide'>Advanced Level</p></span>
 						</div>
 						<div>
 							<div className='slidesho'>
 								<div className='Vaccinations show'>
 								  <div className='bText'>
-									<h3>{this.state.header}</h3>
+									<h3 className="scrollTopHeader">{this.state.header}</h3>
 									<ul>
 										<li><p>{this.state.text1}</p></li>
 										<li><p>{this.state.text2}</p></li>

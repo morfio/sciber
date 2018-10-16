@@ -17,6 +17,7 @@ import Footer from './Footer';
 import { CoursesStan } from './CoursesStan';
 import HcardLinks from './HcardLinks';
 import Board from './Board';
+import Board2 from './Board2';
 import PageCardList from './PageCardList';
 import show from './show';
 import {Lesson} from './Facilitator';
@@ -34,17 +35,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className='header'>
+        <header className=''>
           <Router>
             <div>
               <Navigation />
               <Route exact path="/" component={Home} />
               <Route exact path="/Standard" component={Standard} />
-              <Route  path="/:aoc/:dpd/:section" component={Board} />
+              <Route  path="/Standard/:dpd/:section" component={Board} />
                 <Route  path="/Standard/:topic" component={Page} /> 
               <Route exact path="/Advanced" component={Advanced} />
-                <Route  path="/Advanced/:topic" component={Page} />
-                  <Route path="/Advanced/:topic/:section" component={Board} />
+              <Route path="/Advanced/:topic/:section" component={Board2} />
+              <Route  path="/Advanced/:topic" component={Page} />
               <Route  path="/Facilitator" component={FacHeader} />
                 <Route exact path="/Facilitator/Public" component={Public} />
                 <Route  path="/Facilitator/Lesson" component={Lesson} />
