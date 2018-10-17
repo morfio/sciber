@@ -559,7 +559,7 @@ var TopicAPI2 = {
                     img:vacopinion1,
                     tag: "MMR controversy",
                     text: "WATCH this 5 minute film. What swayed public confidence in the MMR vaccine? Why don't the Medical Research Council recommend 3 seperate vaccines?",
-                    links: ""
+                    links: "https://youtu.be/LvnqCGEuOhM"
                      },
                   {
                     img:vacopinion2,

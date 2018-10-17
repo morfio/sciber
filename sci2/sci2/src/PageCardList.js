@@ -1,11 +1,12 @@
 import React from 'react';
 import {PCardList} from './PageCardAPI';
 import PageCard from './PageCard';
+import "./PageCardList.css";
 
 const PageCardList = ({PCardList, matchi}) => {
 
 	return (
-		<div>
+		<div className="pageCards" >
 			{
 				PCardList.map((cor, inde) => {
 					return (
