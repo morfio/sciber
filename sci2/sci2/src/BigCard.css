@@ -1,6 +1,8 @@
 .bigCard{
 	width:250px;
+	height: auto;
 	display: flex;
+	padding:.5em;
 	flex-direction: column;
 	
 
@@ -9,16 +11,17 @@
 	height:300px;
 	display: inline-block;
 	width:100%;
-	object-fit: contain;
-	border:2px solid red;
+	object-fit: cover;
+	/*border:.5px solid red;*/
 	margin-bottom: 0em;
-	padding:0em;
+	/*padding:.5em;*/
 	
 
 }
 .bigText{
 		font-size: .75em;
 		align-self: center;
+		margin:0px;
 	
 }
 .bigTag{
@@ -27,7 +30,7 @@
 	background-color: #1b84bd;
 	height: 2em;
 	font-size: .75em;
-	margin-bottom: 0em;
+	margin: 0em;
 	justify-content: center;
 	align-items: center;
 	/*align-content: center;*/

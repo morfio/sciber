@@ -84,7 +84,7 @@ class Page extends Component  {
 			<div className="pageTop">
 				  
 					
-				 <div className='linkCardList ma4'>
+				 <div className='linkCardList ma2'>
 				   <PageCardList 
 				   	className=""
 				   	PCardList={PCardList} matchi={this.props.match.url} toBeGot={this.props.match.params.topic} //give Pcardlist onclick function that gets match.url

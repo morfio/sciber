@@ -3,24 +3,20 @@ import {Link, Route} from 'react-router-dom';
 import activitiesInactive from './images/activities-inactive.gif';
 import Board from './Board';
 // import PCardList from './PageCardList';
-import ('./PageCard.css');
+import './PageCard.css';
 //bg-light-green dib br3 h-100 grow h4 ma1
 // TOPIC IS UNDEFINED PROBLEM
 
 const PageCard = ({img, title, topic, matchi,toBeGot}) => {
 	return (
-		<div className='br3 grow ma1 bg-dark-red ba b--red dib bw2 top'>
+		<div className='br3 grow ma1   dib bw2 top'>
 			<Link to={`${matchi}/${title}`}>
 				
-				<img className='dib' src={img} />
-				<div className='pCardTitle'>	
-					<p className='tc text fw7 bg-dark-red'>{title}</p>					
+				<img className='dibs' src={img} />
 					
-				</div>
-			
-		  	</Link>
-
-		  	
+					<p className='tc text fw7 bg-dark-red'>{title}</p>		
+				
+			</Link>
 		</div>
 		);
 }

@@ -96,7 +96,7 @@ var TopicAPI2 = {
                   },
             ],
           "quiz":{
-  "quizTitle": "React Quiz Component Demo",
+  "quizTitle": "Stem-Cell Quiz ",
   "questions": [
     {
       "question": "Approximately, how many cells are there in an adult human?",
@@ -107,7 +107,7 @@ var TopicAPI2 = {
         "Millions",
         "Trillions "
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "4"
     },
     {
       "question": "Scientists find embryonic stem cells interesting because they can grow into all the cell types needed to make your",
@@ -118,7 +118,7 @@ var TopicAPI2 = {
         "Umbilical cord",
         "Thoughts and feelings"
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "4"
     },
     {
       "question": "Adult stem cells help us to maintain and repair our bodies throughout our lives. Which of the following is NOT true about adult stem cells?",
@@ -129,18 +129,9 @@ var TopicAPI2 = {
         "They are found in children",
         "They can grow into any cell type"
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "4"
     },
-    {
-      "question": "Which of the following concepts is/are key to ReactJS?",
-      "questionType": "text",
-      "answers": [
-        "Component-oriented design",
-        "Event delegation model",
-        "Both of the above"
-      ],
-      "correctAnswer": "3"
-    },
+    
     {
       "question": "New brain cells grown from stem cells might help us to treat diseases which affect the brain. Which of the following diseases would not be helped in this way?",
       "questionType": "text",
@@ -150,7 +141,7 @@ var TopicAPI2 = {
         "Heart disease",
         "Stroke"
       ],
-      "correctAnswer": "1"
+      "correctAnswer": "3"
     },
      {
       "question": "Human adult stem cells show great potential for future medical research. Which of the following is NOT true?",
@@ -161,7 +152,7 @@ var TopicAPI2 = {
         "They can only give rise to only a limited number of body tissues.",
         "They are only found in adults "
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "4"
     },
     {
       "question": "Which is not allowed in the UK ?",
@@ -172,7 +163,7 @@ var TopicAPI2 = {
         "Research into using stem cells to test out new drugs",
         "Research into using stem cells to create human clones"
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "4"
     },
     {
       "question": "Scientists have found a way to turn human skin cells back into embryonic-like stem cells, what is the advantage over embryonic stem cells?",
@@ -183,7 +174,7 @@ var TopicAPI2 = {
         "The stem cells will be higher quality",
         "It reduces the need to harvest human stem cells from embryos"
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "4"
     },
     {
       "question": "How do scientists hope to use stem cells to treat diabetes",
@@ -194,7 +185,7 @@ var TopicAPI2 = {
         "Turn stem cells into insulin and inject",
         "Turn stem cells into pancreatic cells that produce insulin"
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "4"
     },
     {
       "question": "The potential to use stem cell technology to make new nerve cells gives great hope to people who are:",
@@ -205,7 +196,7 @@ var TopicAPI2 = {
         "Paralysed by spinal cord injuries",
         "Scared of the dark"
       ],
-      "correctAnswer": "1"
+      "correctAnswer": "3"
     },
     {
       "question": "Embryonic stem cells have been harvested from embryos that:",
@@ -216,7 +207,7 @@ var TopicAPI2 = {
         "Are made of approximately 100 cells",
         "Have a heart beat"
               ],
-      "correctAnswer": "1"
+      "correctAnswer": "3"
     }
   ]
 } ,
@@ -274,7 +265,7 @@ var TopicAPI2 = {
 
             ],
           "quiz": {
-  "quizTitle": "React Quiz Component Demo",
+  "quizTitle": "Genetic-Engineering Quiz",
   "questions": [
     {
       "question": "In most cells in your body, the nucleus contains....?",
@@ -285,7 +276,7 @@ var TopicAPI2 = {
         "All of the molecules needed to make the different bits of an organism.",
         "The instructions needed to make a small part of an organism.",
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "1"
     },
     {
       "question": "Genes are like recipes written in a special code. They are joined to each other in twisted chains called…?",
@@ -318,7 +309,7 @@ var TopicAPI2 = {
         "Transfer genes between individuals of different species only",
         "Transfer genes between living organisms of the same sex only"
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "2"
     },
     {
       "question": "The instructions needed to make your whole body can be thought of as a recipe book. Which of the following is true?",
@@ -329,7 +320,7 @@ var TopicAPI2 = {
         "All cells have the same recipe book but different cells use different recipes",
         "All cells use the whole recipe book"
       ],
-      "correctAnswer": "1"
+      "correctAnswer": "3"
     },
      {
       "question": "Genetic engineering is responsible for some interesting research.Which of the following has NOT been done?",
@@ -340,7 +331,7 @@ var TopicAPI2 = {
         "A glowing gene from a jellyfish has been inserted into a rabbit",
         "A gene for pest resistance has been inserted into a crop plant"
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "2"
     },
     {
       "question": "Which of the following is correct?",
@@ -409,7 +400,7 @@ var TopicAPI2 = {
                   },
             ],
           "quiz": {
-  "quizTitle": "React Quiz Component Demo",
+  "quizTitle": "Brain-Chemistry Quiz ",
   "questions": [
     {
       "question": "Which of the following would NOT be turned into electrical messages in your body?",
@@ -442,7 +433,7 @@ var TopicAPI2 = {
         "They are found in children",
         "They can grow into any cell type"
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "1"
     },
     {
       "question": "Messages enter a neuron through it’s....",
@@ -452,17 +443,6 @@ var TopicAPI2 = {
         "Cell body",
         "Axon",
         "Electrical wires"
-      ],
-      "correctAnswer": "3"
-    },
-    {
-      "question": "New brain cells grown from stem cells might help us to treat diseases which affect the brain. Which of the following diseases would not be helped in this way?",
-      "questionType": "text",
-      "answers": [
-        "Parkinson's",
-        "Alzheimer's",
-        "Heart disease",
-        "Stroke"
       ],
       "correctAnswer": "1"
     },
@@ -475,7 +455,7 @@ var TopicAPI2 = {
         "They can link to other pathways",
         "They can get weaker if not used"
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "2"
     },
     {
       "question": "Which describes how a neuron passes messages happens? ?",
@@ -486,7 +466,7 @@ var TopicAPI2 = {
         "Neurotransmitters are released into the synapse from one neuron and land on the axon of the next neuron",
         "Neurotransmitters are released from one neuron into the synapse and land on the dendrite of the next neuron"
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "4"
     },
     {
       "question": "Which drugs do NOT exist?",
@@ -497,7 +477,7 @@ var TopicAPI2 = {
         "Drugs which can replace dead neurons",
         "Drugs which make us feel happier"
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "3"
     },
     {
       "question": "When neurons die, pathways can break. New messages might not get stored and links with existing information might not get made. This can cause…?",
@@ -508,7 +488,7 @@ var TopicAPI2 = {
         "Photographic memory",
         "Hyperactivity"
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "2"
     },
     {
       "question": "If too much neurotransmitter stays in the gap between neurons for too long, it can cause the next neuron to reduce its response – it becomes…?",
@@ -530,7 +510,7 @@ var TopicAPI2 = {
         "Problems with concentration (ADHD).",
         "Anxiety"
               ],
-      "correctAnswer": "1"
+      "correctAnswer": "2"
     },
     {
       "question": "Neurotransmitters land on receptors on the next neuron producing an electrical signal. After that, the neurotransmitter molecules are usually..?",
@@ -594,7 +574,7 @@ var TopicAPI2 = {
                   },
             ],
           "quiz": {
-  "quizTitle": "React Quiz Component Demo",
+  "quizTitle": "Vaccinations Quiz",
   "questions": [
     {
       "question": "What are the chemicals produced by some white blood cells for targeting and destroying bacteria or viruses?",
@@ -605,7 +585,7 @@ var TopicAPI2 = {
         "Pathogens",
         "Antipathies"
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "2"
     },
     {
       "question": "Once your white cells have defeated a pathogen, they seem to remember how to make antibodies the next time it appears. This means...?",
@@ -616,7 +596,7 @@ var TopicAPI2 = {
         "...you will feel dizzy and tired",
         "...the invaders will be destroyed before they have chance to make you feel unwell"
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "4"
     },
     {
       "question": "A vaccine can be made from a disease causing pathogen. It shouldn't make you sick because the pathogen....?",
@@ -627,7 +607,7 @@ var TopicAPI2 = {
         "... is a dead or weakened form",
         "... has gone off"
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "3"
     },
     {
       "question": "For herd immunity to be effective, what percentage of the population need to be vaccinated?",
@@ -638,7 +618,7 @@ var TopicAPI2 = {
       "60 - 70%",
       "80 - 90%"
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "4"
     },
     {
       "question": "What happened when people stopped getting their children vaccinated with the MMR vaccine?",
@@ -649,30 +629,20 @@ var TopicAPI2 = {
           "There was a significant fall in autism cases",
           "There were significantly more cases of measles"
       ],
-      "correctAnswer": "1"
+      "correctAnswer": "4"
     },
      {
-      "question": "Before vaccinations, 100,000 children in the UK got measles killing about 100 each year. In 2006 we had the first measles fatality since....?",
-      "questionType": "text",
-      "answers": [
-        "2000",
-        "1988",
-        "1992",
-        "1968"
-      ],
-      "correctAnswer": "3"
-    },
-    {
       "question": "The transmission of pathogens is about how they are passed from one organism to another. Which of the following describes Direct methods of transmission?",
       "questionType": "text",
       "answers": [
-       "Spreading diseases through contact with the infected person",
+      "Spreading diseases through contact with the infected person",
       "Spreading diseases through drinking water (like cholera)",
       "Spreading diseases through contaminated food (like salmonella)",
       "Spreading diseases through the air (like the influenza virus)."
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "1"
     },
+    
     {
       "question": "Indirect methods of transmission include:",
       "questionType": "text",
@@ -682,7 +652,7 @@ var TopicAPI2 = {
         "Spreading diseases via a vector; another organism. (e.g. malaria is transmitted by the mosquito).",
         "All of the above"
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "4"
     },
     {
       "question": " Our first line of defence against infection stops pathogens entering your body with physical and chemical barriers. Which of the following is a chemical barrier?",
@@ -693,7 +663,7 @@ var TopicAPI2 = {
         "cilia in our airways",
         "Lysozymes (enzymes in tears)" 
               ],
-      "correctAnswer": "3"
+      "correctAnswer": "4"
     },
     {
       "question": "Which is NOT passive immunisation ?",
@@ -704,30 +674,9 @@ var TopicAPI2 = {
         "mother’s breast milk (natural immunity).",
         "when our own lymphocytes respond to infections"
       ],
-      "correctAnswer": "1"
-    },
-    {
-      "question": "Which of the following is NOT a result of abnormal neurotransmitter levels?",
-      "questionType": "text",
-      "answers": [
-        "Depression",
-        "Hair loss",
-        "Problems with concentration (ADHD).",
-        "Anxiety"
-              ],
-      "correctAnswer": "1"
-    },
-    {
-      "question": "Neurotransmitters land on receptors on the next neuron producing an electrical signal. After that, the neurotransmitter molecules are usually..?",
-      "questionType": "text",
-      "answers": [
-        "dispersed, deactivated or reabsorbed.",
-        "Sent off to the lungs",
-        "Excreted though the cortex",
-        "Sent down the axon of the next neuron"
-              ],
-      "correctAnswer": "1"
+      "correctAnswer": "4"
     }
+    
   ]
 } ,
           "discussion": ""
@@ -783,7 +732,7 @@ var TopicAPI2 = {
                   },
             ],
           "quiz":  {
-  "quizTitle": "React Quiz Component Demo",
+  "quizTitle": "Clinical-Trials Quiz",
   "questions": [
     {
       "question": "The first stage in a drug trial for a new medicine is to test the effect of the drug...?",
@@ -794,7 +743,7 @@ var TopicAPI2 = {
         "In healthy volunteers",
         "On cells and tissues"
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "4"
     },
     {
       "question": " A placebo is...?",
@@ -805,7 +754,7 @@ var TopicAPI2 = {
         "A pill with similar properties to the drug being tested in the trial",
         "An ineffectual ‘false’ pill which does not contain the chemical being tested" 
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "4"
     },
     {
       "question": "In a randomised double-blind controlled trial...?",
@@ -827,7 +776,7 @@ var TopicAPI2 = {
       "REDUCING the number of animals needed to a minimum",
       "REFINING tests to cause animals the least possible distress"
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "2"
     },
     {
       "question": "Phase 1 trials test...?",
@@ -838,7 +787,7 @@ var TopicAPI2 = {
         "A small dose of the drug in thousands of patients with the disease",
         "A small dose of the drug in a few healthy volunteers"
       ],
-      "correctAnswer": "1"
+      "correctAnswer": "4"
     },
      {
       "question": "Phase 2 trials test...?",
@@ -849,7 +798,7 @@ var TopicAPI2 = {
         "A small dose of the drug in thousands of patients with the disease",
         "A small dose of the drug in a few healthy volunteers"
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "2"
     },
     {
       "question": "Phase 3 trials test...?",
@@ -860,7 +809,7 @@ var TopicAPI2 = {
         "A small dose of the drug in thousands of patients with the disease",
         "A small dose of the drug in a few healthy volunteers"
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "3"
     },
     {
       "question": "Why do drugs continue to be monitored after they have passed phase 3 trials and been approved for use?",
@@ -871,7 +820,7 @@ var TopicAPI2 = {
         "To find the correct dose for patients",
         "To find out if the drug can be used to treat other diseases"
               ],
-      "correctAnswer": "2"
+      "correctAnswer": "1"
     },
     {
       "question": " Pharmaceutical companies need to show that the medicine is safe by sending their clinical trial results to …?",
@@ -882,7 +831,7 @@ var TopicAPI2 = {
         "MOMA",
         "MWAH" 
               ],
-      "correctAnswer": "3"
+      "correctAnswer": "1"
     },
     
     {
@@ -894,7 +843,7 @@ var TopicAPI2 = {
         "10 – 15 months",
         "200 – 300 days"
       ],
-      "correctAnswer": "1"
+      "correctAnswer": "3"
       }
     ]
   },
@@ -950,7 +899,7 @@ var TopicAPI2 = {
                   },
             ],
           "quiz":{
-  "quizTitle": "React Quiz Component Demo",
+  "quizTitle": "Evolution Quiz ",
   "questions": [
     {
       "question": "Which of these did Darwin think?",
@@ -961,7 +910,7 @@ var TopicAPI2 = {
         "Creatures best suited to island life would survive to breed but could never become a new species over many generations",
         "Creatures best suited to island life would survive to breed and pass on their features to their offspring"
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "4"
     },
     {
       "question": " We don't have fossils to show all the species between the first life form and the organisms alive today. What reason would a scientist be LEAST likely to give for this?",
@@ -983,7 +932,7 @@ var TopicAPI2 = {
         "2000 years ago and were similar organisms to those alive today",
         "2000 years ago and were very simple cells"
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "1"
     },
     {
       "question": "Which of the following did Darwin use to support his ideas about evolution?",
@@ -994,7 +943,7 @@ var TopicAPI2 = {
         "When parent genes are copied, a mutation can give rise to new gene combinations and mutations which can cause changes in the organism's characteristics",
         "Characteristics which give a better chance of survival are more likely to be passed on from parent to offspring"
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "4"
     },
     {
       "question": "Why are evolutionary biologists comparing protein molecules of different species?",
@@ -1005,7 +954,7 @@ var TopicAPI2 = {
         "To see if species with closely related skeletons also have closely related proteins",
         "All of the above"
       ],
-      "correctAnswer": "1"
+      "correctAnswer": "4"
     },
      {
       "question": " Which of the following CANNOT explained by evolution by natural selection?",
@@ -1016,7 +965,7 @@ var TopicAPI2 = {
         "Why humans have a short tail bone",
         "The purpose of life and the universe"
       ],
-      "correctAnswer": "3"
+      "correctAnswer": "4"
     },
     {
       "question": "Natural selection can be summarised into which six stages?",
@@ -1027,7 +976,7 @@ var TopicAPI2 = {
       "Variation > excess offspring > snuggle > survive > reproduce > repeat",
       "Variation > excess offspring > shuffle > survive > reproduce > repeat" 
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "1"
     },
     {
       "question": "Darwin wrote a famous book called…?",
@@ -1038,7 +987,7 @@ var TopicAPI2 = {
         "Survival of the Fittest",
         "50 Shades of Selection"
               ],
-      "correctAnswer": "2"
+      "correctAnswer": "1"
     },
     {
       "question": " Which other scientist had the same theory as Darwin’s?",
@@ -1060,7 +1009,7 @@ var TopicAPI2 = {
         "The fossil record",
         "The Bible"
       ],
-      "correctAnswer": "1"
+      "correctAnswer": "4"
         }
       ]
     },

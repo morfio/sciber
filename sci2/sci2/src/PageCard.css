@@ -1,5 +1,8 @@
 .top{
 	font-size: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
 }
 /*.img-with-text {
     text-align: justify;
@@ -10,15 +13,25 @@
     /*display: block;*/
     margin: 0 ;
     width:120px;
+    height:90px;
     vertical-align:middle;
 }
 .text{
 	font-size: 12px;
-	background-color: #f3f6fa;
+    margin: 0px;
+	/*background-color: #f3f6fa;*/
 }
-.dib{
-	margin-bottom: -10px;
+.dibs{
+	/*margin-bottom: -10px;*/
+    display: inline-block;
 }
 .pCardTitle{
-	margin-bottom: -10px;
+	/*margin-bottom: -10px;*/
+    display: inline-block;
+    padding: 0px;
+    margin:0px;
+}
+.dib{
+    object-fit: contain;
+    
 }
