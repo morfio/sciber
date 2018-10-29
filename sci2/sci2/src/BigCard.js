@@ -1,5 +1,5 @@
 import React from 'react';
-import './BigCard.css';
+// import './BigCard.css';
 import { Link, Route } from 'react-router-dom';
 
 

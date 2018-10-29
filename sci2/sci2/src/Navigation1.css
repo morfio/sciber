@@ -1,0 +1,137 @@
+.navheader{
+	height:7em;
+	width:auto;
+	margin: 0em 2em 0em 2em;
+	display:grid;
+	grid-template-columns: repeat(8, 7.7em);
+	grid-template-rows: repeat(4, 2.4em);
+	grid-template-areas: 
+	"logo .    .  .    .         .           .          ."
+	"logo logtext logtext . headText headText headText headText"
+	"logo nav nav nav   nav  nav      nav   nav";
+	/*background-color: #ffff;*/
+
+}
+
+@media only screen and (max-width: 980px){
+    .navheader{
+        font-size: .9em;
+        grid-gap: 0em;
+    }
+    .headText{
+	grid-area:headText;
+	font-size: .7em;
+}
+ }
+ @media only screen and (max-width: 768px){
+    .navheader{
+        font-size: .7em;
+        grid-gap: 0em;
+    }
+    .headText{
+	grid-area:headText;
+	font-size: .7em;
+}
+ }
+
+ @media only screen and (max-width: 568px){
+    .navheader{
+        font-size: .5em;
+        grid-gap: 0em;
+    }
+    .headText{
+	grid-area:headText;
+	font-size: .5em;
+}
+ }
+ @media only screen and (max-width: 500px){
+    .navheader{
+        font-size: .4em;
+        grid-gap: 0em;
+    }
+    .headText{
+	grid-area:headText;
+	font-size: .4em;
+}
+ }
+
+ @media only screen and (max-width: 422px){
+    .navheader{
+        font-size: .3em;
+        grid-gap: 0em;
+    }
+    .headText{
+	grid-area:headText;
+	font-size: .3em;
+}
+ }
+
+.logo{
+	grid-area: logo;
+	z-index: 1;
+	width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+.logtext{
+	grid-area:logtext;
+	width: auto;
+    height: 100%;
+    /*object-fit: cover*/;
+}
+.headText{
+	grid-area:headText;
+	font-size: .7em;
+}
+.nav{
+	height:100%;
+	width:auto;
+	overflow:hidden;
+	/*background-color: #4a90c0;*/
+	grid-area:nav;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/*grid-template-rows: 1fr;
+	grid-template-columns: repeat(8, 6em);
+	grid-template-areas: 
+	". . .  Home Standard Advanced Facilitators about";*/
+	
+}
+.Home{
+	grid-area: Home;
+}
+.Stand{
+	grid-area:Standard;
+}
+.Advanced{
+	grid-area:Advanced;
+}
+.Facilitators{
+	grid-area: Facilitators;
+}
+.About{
+	grid-area:about;
+}
+.lift{
+	z-index: 1;
+}
+
+.navros{
+	
+	height:100%;
+	width: auto;
+	grid-row: 3;
+	grid-column: 1 / 9;
+	background-color: #4a90c0;
+	opacity: 0.4;
+	overflow:hidden;
+	z-index: 0;
+}
+a{
+	width: auto;
+	text-decoration: none;
+}
+a.active {
+	color: blue;
+ }

@@ -68,10 +68,16 @@ class Standard extends Component {
 		this.setScroll  = this.setScroll.bind(this); 
 	  	this.onClock = this.onClock.bind(this);
 	  	this.forward = this.forward.bind(this);
+	  	this.backSet = this.backSet.bind(this);
+	  	this.backward = this.backward.bind(this);
 	}
 
 	forward() {
 		this.onClock();
+		this.setScroll();
+	}
+	backward(){
+		this.backSet();
 		this.setScroll();
 	}
 
@@ -88,6 +94,19 @@ class Standard extends Component {
 		this.setState({
 			counter: newCount
 		})
+
+	}
+	backSet() {
+		let backCount = this.state.counter - 1;
+		if (backCount <= 0) {
+			backCount = Slides.length - 1;
+		} else {
+			backCount = backCount;
+		}
+		this.setState({
+			counter: backCount
+		})
+
 
 	}
 	setScroll() {
@@ -129,19 +148,23 @@ class Standard extends Component {
 						<div>
 							<div className='slidesho'>
 								<div className='Vaccinations show'>
-								  <div className='bText'>
-									<h3 className="scrollTopHeader">{this.state.header}</h3>
+								  <div className='bText rounded-left'>
+									<h3 className="scrollTopHeader topHeader">{this.state.header}</h3>
 									<ul>
-										<li><p>{this.state.text1}</p></li>
-										<li><p>{this.state.text2}</p></li>
-										<li><p>{this.state.text3}</p></li>
-										<li><p>{this.state.text4}</p></li>
+										<li><p className='topHeader'>{this.state.text1}</p></li>
+										<li><p className='topHeader'>{this.state.text2}</p></li>
+										<li><p className='topHeader'>{this.state.text3}</p></li>
+										<li><p className='topHeader'>{this.state.text4}</p></li>
 									</ul>
+									
 								  </div>
-								  <div className='bImage'>
+								  <div className='bImage rounded-right'>
 							  			<img src={this.state.img}/>
 								  </div>
-								  <button onClick={this.forward}></button>	
+								  	<div className='theButtons'>
+										<button className="f6 link dim br-pill ph3 pv2 mb2 dib white bg-black scrollButton" onClick={this.forward}>Next</button>
+										<button className="f6 link dim br-pill ph3 pv2 mb2 dib white bg-black scrollButton" onClick={this.backward}>Back</button>
+									</div>
 								</div>
 								
 								</div>	

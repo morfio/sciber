@@ -6,10 +6,12 @@ const About = () => {
 
 	return(
 			<div className='aboutMain'>
+
+				<span className="wideHead"><p className='headWide'>About</p></span>
 				<ul className='aboutList'>
 					<li className='under'>
 						<div className='dropdown'>
-							<p>
+							<p className='topHeader'>
 								How to use SciberBrain
 							</p>
 							<div className='dropdown-content'>
@@ -32,7 +34,7 @@ const About = () => {
 						</div>
 					</li>
 					<li className='under'><div className='dropdown'>
-							<p >
+							<p  className='topHeader'>
 								About the project
 							</p>
 							<div className='dropdown-content'>
@@ -46,7 +48,7 @@ const About = () => {
 							</div>
 						</div></li>
 					<li className='under'><div className='dropdown'>
-							<p >
+							<p  className='topHeader'>
 								About us
 							</p>
 							<div className='dropdown-content'>
@@ -56,7 +58,7 @@ const About = () => {
 							</div>
 						</div></li>
 					<li className='under'><div className='dropdown'>
-							<p>
+							<p className='topHeader'>
 								Contact us
 							</p>
 							<div className='dropdown-content'>
@@ -75,7 +77,7 @@ const About = () => {
 							</div>
 						</div></li>
 					<li className='under'><div className='dropdown'>
-							<p>
+							<p className='topHeader'>
 								Feedback
 							</p>
 							<div className='dropdown-content'>
@@ -88,12 +90,12 @@ const About = () => {
 							</div>
 						</div></li>
 					<li className='under'><div className='dropdown'>
-							<p>
+							<p className='topHeader'>
 								Acknowledgements
 							</p>
 							<div className='dropdown-content'>
 								<p>
-									We would like to thank Indian Red Ltd for their involvement in creating the website design and the interactive slideshows included in our site. Indian Red Ltd is a provider of award winning websites, interactive learning and graphic design for the educational sectors. If you feel your next project could benefit from their expertise please contact them on info@indianred.co.uk / www.indianred.co.uk
+									
 								</p>
 							</div>
 						</div></li>

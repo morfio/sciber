@@ -59,6 +59,10 @@
     .navheader{
         font-size: .3em;
         grid-gap: 0em;
+        grid-template-areas: 
+	"logo .    .  .    .         .           .          ."
+	"logo logo logtext logtext headText headText headText headText"
+	"logo nav nav nav   nav  nav      nav   nav";
     }
     .headText{
 	grid-area:headText;
@@ -71,13 +75,13 @@
 	z-index: 1;
 	width: auto;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .logtext{
 	grid-area:logtext;
 	width: auto;
     height: 100%;
-    /*object-fit: cover*/;
+    object-fit: contain;
 }
 .headText{
 	grid-area:headText;

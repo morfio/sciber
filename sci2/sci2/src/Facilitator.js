@@ -6,7 +6,8 @@ import Navigation from './Navigation';
 
 export const FacHeader = () => {
 	return (
-		<div >
+		<div className="facilities">
+			<span className="wideHead"><p className='headWide'>Facilitators</p></span>
 			<ul className='facNav'>
 				<li><Link to='/Facilitator/Public'>Public Engagement</Link></li>
 				<li><Link to='/Facilitator/Curriculum'>Curriculum Links</Link></li>
@@ -18,10 +19,10 @@ export const FacHeader = () => {
 }
 export const Public = () => {
 	return (
-		<div>
+		<div className='facilities'>
 			<ul><li className='under'>
 				<div className='dropdown'>
-					<p>Planning an event</p>
+					<p className='topHeader'>Planning an event</p>
 					<div className='dropdown-content'>
 						<p>There are a number of parameters which need to be considered when planning your public engagement event</p>
 						<p><strong>Outcomes</strong> - What outcomes do you envisage for your audience? Why are these outcomes important?</p>
@@ -35,7 +36,7 @@ export const Public = () => {
 				</div></li>
 				<li className='under'>
 				<div className='dropdown'>
-					<p>1-2 hour discussion event (10 - 25 participants)</p>
+					<p className='topHeader'>1-2 hour discussion event (10 - 25 participants)</p>
 					<ul className='dropdown-content'>
 						<li>
 							<strong>  Provide a knowledge base (10 mins)</strong>
@@ -118,7 +119,7 @@ export const Public = () => {
 				</div></li>
 				<li className='under'>
 				<div className='dropdown'>
-					<p>1-2 hour lecture-style event(larger groups of 25+ participants) </p>
+					<p className='topHeader'>1-2 hour lecture-style event(larger groups of 25+ participants) </p>
 					<ul className='dropdown-content'>
 						<li>
 							<div>
@@ -209,24 +210,24 @@ export const Public = () => {
 }
 export const Curriculum = () => {
 	return(
-		<div>
+		<div className="facilities">
 			<ul>
 			<li className='under'>
-				<div>
-					<p>AQA Biology AS/A2</p>
-					<p><a href=''>Open PDF</a> showing how SciberBrain topics link to AQA</p>
+				<div className='dropdown'>
+					<p className='topHeader'>AQA Biology AS/A2</p>
+					<p className='topHeader'><a href=''>Open PDF</a> showing how SciberBrain topics link to AQA</p>
 				</div>
 			</li>
 			<li className='under'>	
-				<div>
-					<p>Edexcel Biology AS/A2</p>
-					<p><a href=''>Open PDF</a> showing how SciberBrain topics link to Edexcel</p>
+				<div className='dropdown'>
+					<p className='topHeader'>Edexcel Biology AS/A2</p>
+					<p className='topHeader'><a href=''>Open PDF</a> showing how SciberBrain topics link to Edexcel</p>
 				</div>
 			</li>
 			<li className='under'>
-				<div>
-					<p>OCR Biology AS/A2</p>
-					<p><a href=''>Open PDF</a> showing how SciberBrain topics link to OCR</p>
+				<div className='dropdown'>
+					<p className='topHeader'>OCR Biology AS/A2</p>
+					<p className='topHeader'><a href=''>Open PDF</a> showing how SciberBrain topics link to OCR</p>
 				</div>
 			</li>
 			</ul>
@@ -239,10 +240,10 @@ export const Curriculum = () => {
 export const Lesson = () => {
 
 	return (
-		<div>
+		<div className="facilities">
 			<div className='he1 dropdown '>
 				<div>
-					<p>Preparation</p>
+					<p className='topHeader'>Preparation</p>
 					<div className='dropdown-content'><p>Each SciberBrain topic provides 'Some science','Some opinions','Some activities'
 						appl and a 'Quiz'.  Check through each section to ensure the activities are appropriate for your learners.
 						</p>
@@ -256,7 +257,7 @@ export const Lesson = () => {
 				<ol className='llist'> 
 				  <li className='under'>
 				    <div className='he2 dropdown '>
-						<p>	Provide a knowledge base (10 - 30 mins)</p>
+						<p className='topHeader'>	Provide a knowledge base (10 - 30 mins)</p>
 						<div className='dropdown-content'>
 								<p>The first section for each topic provides 'Some science'. 
 
@@ -275,7 +276,7 @@ export const Lesson = () => {
 				  </li>
 				  <li className='under'>
 						<div className='he3 dropdown '>
-							<p>
+							<p className='topHeader'>
 								Create an atmosphere (5 mins)
 							</p>
 							<div className='dropdown-content'>
@@ -291,7 +292,7 @@ export const Lesson = () => {
 				  </li>
 				  <li className='under'>
 					<div className='he4 dropdown'>
-						<p>
+						<p className='topHeader'>
 								Present a stimulus (5 – 10 mins)
 						</p>
 						<div className='dropdown-content'>
@@ -302,7 +303,7 @@ export const Lesson = () => {
 				  </li>
 				  <li className='under'>
 						<div className='he5 dropdown'>
-							<p>
+							<p className='topHeader'>
 								Generate questions (15 mins)
 							</p>
 							<div className='dropdown-content'>
@@ -314,7 +315,7 @@ export const Lesson = () => {
 				  </li>
 				  <li className='under'>
 						<div className='he6 dropdown'>
-							<p>
+							<p className='topHeader'>
 								Facilitate a discussion (15 - 20 mins)
 							</p>
 							<div className='dropdown-content'>
@@ -342,7 +343,7 @@ export const Lesson = () => {
 			      </li>
 				  <li className='under'>
 						<div className='he7 dropdown'>
-							<p>
+							<p className='topHeader'>
 								Summing up (5 mins).
 							</p>
 							<div className='dropdown-content'>
@@ -358,7 +359,7 @@ export const Lesson = () => {
 				<ul className='endlist'>
 				  <li className='under'>
 					   <div className='he8 dropdown'>
-					     <p>
+					     <p className='topHeader'>
 							Downloadable handbook
 					     </p>
 					   	 <div className='dropdown-content'>

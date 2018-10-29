@@ -38,6 +38,7 @@
 }
 .bText{
 	background-color: #ecf4f9;
+	position: relative;
 }
 .bImage{
 	height: 100%;

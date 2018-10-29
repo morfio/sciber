@@ -71,9 +71,15 @@ class Standard extends Component {
 		this.setScroll  = this.setScroll.bind(this); 
 	  	this.onClock = this.onClock.bind(this);
 	  	this.forward = this.forward.bind(this); 
+	  	this.backSet = this.backSet.bind(this);
+	  	this.backward = this.backward.bind(this);
 	}
 	forward() {
 		this.onClock();
+		this.setScroll();
+	}
+	backward(){
+		this.backSet();
 		this.setScroll();
 	}
 
@@ -90,6 +96,20 @@ class Standard extends Component {
 		this.setState({
 			counter: newCount
 		})
+
+	}
+
+	backSet() {
+		let backCount = this.state.counter - 1;
+		if (backCount <= 0) {
+			backCount = Slides.length - 1;
+		} else {
+			backCount = backCount;
+		}
+		this.setState({
+			counter: backCount
+		})
+
 
 	}
 	setScroll() {
@@ -130,20 +150,25 @@ class Standard extends Component {
 						</div>
 						<div>
 							<div className='slidesho'>
-								<div className='Vaccinations show'>
-								  <div className='bText'>
-									<h3>{this.state.header}</h3>
+								<div className='Vaccinations show '>
+								  <div className='bText rounded-left'>
+									<h3 className='topHeader'>{this.state.header}</h3>
 									<ul>
-										<li><p>{this.state.text1}</p></li>
-										<li><p>{this.state.text2}</p></li>
-										<li><p>{this.state.text3}</p></li>
-										<li><p>{this.state.text4}</p></li>
+										<li><p className='topHeader'>{this.state.text1}</p></li>
+										<li><p className='topHeader'>{this.state.text2}</p></li>
+										<li><p className='topHeader'>{this.state.text3}</p></li>
+										<li><p className='topHeader'>{this.state.text4}</p></li>
 									</ul>
+
 								  </div>
-								  <div className='bImage'>
+								  <div className='bImage rounded-right'>
 							  			<img src={this.state.img}/>
 								  </div>
-								  <button onClick={this.forward}></button>	
+								  	
+								  	<div className='theButtons'>
+										<button className="  scrollButton rounded-right rounded-left" onClick={this.forward}>&#8249;</button>
+										<button className="f6 link dim br-40  white  scrollButton tc" onClick={this.backward}>&#8250;</button>
+									</div>
 								</div>
 								
 								</div>	
@@ -161,7 +186,10 @@ class Standard extends Component {
 
 export default Standard;
 
+
+
 // <div>
+
 // 						  <span><a href='#'> Home </a></span>
 // 						  <span><a href='#'> Standard Level </a></span>
 // 						  <span><a href='#'> Advanced Level </a></span>

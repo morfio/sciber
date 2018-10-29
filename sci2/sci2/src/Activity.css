@@ -1,0 +1,8 @@
+.activityCard{
+	display:flex;
+	flex-direction: row;
+	width:auto;
+	justify-content: space-around;
+	/*align-content: space-around;*/
+/*	padding:5px;*/
+}

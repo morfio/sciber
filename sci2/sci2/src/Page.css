@@ -1,0 +1,12 @@
+.pageTop{
+	
+	/*padding: 3em;*/
+	display: flex;
+	/*justify-content: center;*/
+	background-color: #d9ebf4;
+}
+
+.linkCardList{
+	align-self: center;
+	width: 100%;
+}

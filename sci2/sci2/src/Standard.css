@@ -81,9 +81,9 @@
   width: auto;
   height: 100%;
   display: flex;
-  overflow-x: auto;
+  /*overflow-x: auto;
   overflow-y: hidden;
-  overflow: auto;
+  overflow: auto;*/
   -webkit-overflow-scrolling: touch;
   scroll-snap-type: mandatory;
   /* older spec implementation */
@@ -94,7 +94,7 @@
 	flex-shrink: 0;
 	display:grid;
 	width:100%;
-	height:100%;
+	height:auto;
 	grid-template-rows: 1fr;
 	grid-template-columns: 1fr 1fr;
 	scroll-snap-align: start;
@@ -202,11 +202,48 @@ li {
 .headWide{
   display: flex;
   align-items: flex-start;
-  width: 100%;
+  width: auto;
   height: 1.5em;
   background-color: #ecf4f9;
   padding-left: .5em;
   /*margin-left: .5em;*/
   font-size: 2em;
   border-radius: .75em;
+}
+.scrollButton {
+  height: 1.2em;
+  width: 3em;  
+  
+  text-align: center;
+  line-height: 30px;
+  display: inline-block;
+  text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+
+  
+}
+
+.theButtons{
+  display: flex;
+  justify-content:space-between;
+  align-items:  center;
+  height: auto;
+  /*padding: 2em;*/
+}
+.rounded-left{
+  border-top-left-radius: .50em;
+  border-bottom-left-radius: .50em;
+  border: 2px solid #ecf4f9;
+
+}
+.rounded-right{
+  border-top-right-radius: .50em;
+  border-bottom-right-radius: .50em;
+  border: 2px solid #ecf4f9;
+}
+.buttonText{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
 }

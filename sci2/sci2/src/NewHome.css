@@ -1,0 +1,20 @@
+.container{
+	display:grid;
+	width: minmax(12em, 56em);
+	height:auto;
+	grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:  repeat(3, 1fr);
+    grid-template-areas: 
+    " sb sb sb sb"
+    " hd hd hd hd"
+    " hd hd hd hd";
+}
+
+.scrollB{
+	grid-area: sb;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(4.69em, 20.44em);
+    grid-template-areas: 
+    "sText sImage";
+}

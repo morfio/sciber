@@ -24,6 +24,7 @@ import {Lesson} from './Facilitator';
 import {Curriculum} from './Facilitator';
 import {Public} from './Facilitator';
 import {FacHeader} from './Facilitator';
+import Disclaimer from './Disclaimer';
 
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 
@@ -53,12 +54,15 @@ class App extends Component {
 
               <Route  path="/About" component={About} />
               <Route  path="/HcardLinks" component={HcardLinks} />
+              <Route path="/Disclaimer" component={Disclaimer} />
+              <Footer className='Footer'/>
             </div>
+
           </Router>
           
         </header>
         
-        <Footer className='Footer'/>
+        
       </div>
     );
   }

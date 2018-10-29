@@ -39,6 +39,48 @@
 	background-color: #ecf4f9;
 
 }
+@media only screen and (max-width: 1024 px){
+    .facilities{
+        font-size: 1em;
+        grid-gap: 0em;
+    }
+ }  
+@media only screen and (max-width: 980px){
+    .facilities{
+        font-size: .9em;
+        grid-gap: 0em;
+    }
+ }
+ @media only screen and (max-width: 768px){
+    .facilities{
+        font-size: .7em;
+        grid-gap: 0em;
+    }
+ }
+
+ @media only screen and (max-width: 568px){
+    .facilities{
+        font-size: .5em;
+        grid-gap: 0em;
+    }
+ }
+ @media only screen and (max-width: 500px){
+    .facilities{
+        font-size: .4em;
+        grid-gap: 0em;
+    }
+ }
+
+ @media only screen and (max-width: 422px){
+    .facilities{
+        font-size: .3em;
+        grid-gap: 0em;
+    }
+ }
+ .facilities{
+ 	padding-right: 2em;
+ 	padding-left: 2em;
+ }
 .space{
 	grid-area: spa;
 }
@@ -102,5 +144,16 @@
 .facNav{
 	display: flex;
 	justify-content: space-around;
+
+}
+ul{
+	padding: 0px;
+}
+ol{
+	padding: 0px;
+}
+
+.topHeader{
+	padding-left: .5em;
 
 }

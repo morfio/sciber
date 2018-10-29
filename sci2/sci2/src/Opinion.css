@@ -1,0 +1,9 @@
+.opinionCard{
+	/*display:flex;
+	flex-direction: row;
+	justify-content: space-around;*/
+	display:flex;
+	flex-direction: row;
+	/*width:auto;*/
+	justify-content: space-around;
+}
