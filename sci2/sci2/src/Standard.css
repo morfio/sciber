@@ -213,13 +213,13 @@ li {
 .scrollButton {
   height: 1.2em;
   width: 3em;  
-  
-  text-align: center;
+  margin: 10px 10px 10px 0;
+  /*text-align: center;
   line-height: 30px;
   display: inline-block;
   text-decoration: none;
     display: inline-block;
-    padding: 8px 16px;
+    padding: 8px 16px;*/
 
   
 }

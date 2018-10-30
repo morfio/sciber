@@ -166,8 +166,8 @@ class Standard extends Component {
 								  </div>
 								  	
 								  	<div className='theButtons'>
-										<button className="  scrollButton rounded-right rounded-left" onClick={this.forward}>&#8249;</button>
-										<button className="f6 link dim br-40  white  scrollButton tc" onClick={this.backward}>&#8250;</button>
+										<button className="scrollButton rounded-right rounded-left" onClick={this.forward}>&#8249;</button>
+										<button className="scrollButton rounded-right rounded-left" onClick={this.backward}>&#8250;</button>
 									</div>
 								</div>
 								

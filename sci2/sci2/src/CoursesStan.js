@@ -38,9 +38,9 @@ export const CoursesStan = [
   {
   	id:5,
   	vidsource: 'https://youtu.be/rt4J47lQT5Q',
-  	title: 'Cinical-Trials',
+  	title: 'Clinical-Trials',
   	img:clinic,
-    topic:'Cinical Trials'
+    topic:'Clinical-Trials'
   },
   {
   	id:6,
