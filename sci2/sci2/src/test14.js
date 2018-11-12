@@ -335,7 +335,8 @@ var TopicAPI3 = {
       "answers": [
       "The genes replicate and produce more copies of the plasmid",
       "The plasmids replicate and produce more copies of the bacteria",
-      "The bacteria keep the plasmids warm until they hatch" 
+      "The bacteria keep the plasmids warm until they hatch",
+      "The bacteria replicate and produce more copies of the gene" 
       ],
       "correctAnswer": "4"
     },
@@ -673,7 +674,7 @@ var TopicAPI3 = {
       "correctAnswer": "1"
     },
     {
-      "question": "Indirect methods of transmission include:?",
+      "question": "Indirect methods of transmission include?",
       "questionType": "text",
       "answers": [
         "Spreading diseases through contaminated food (like salmonella)",

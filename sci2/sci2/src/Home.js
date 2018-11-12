@@ -22,10 +22,10 @@ import Slider from "react-slick";
 import Scroll from './Scroll';
 import RCarusel from './RCarousel';
 import  scrollArray from './Scroll';
-import teachers from './images/teachers.jpg';
+import teachers from './images/teachers.jpeg';
 import scientistt from './images/scientistt.png';
-import schools from './images/schools.jpg';
-import welcome from './images/welcome.jpg';
+import schools from './images/schools.png';
+import welcome from './images/welcome.jpeg';
 
 // const Button = styled.button`/* ... */`
 
@@ -99,20 +99,7 @@ class Home extends Component {
 		
 		return(
 		<div className='container'>
-			<div className='scrollB'>
-				<div className='sText'>
-						<article>
-							<h2>{this.state.scrollTitle}</h2>
-							<p>{this.state.bodyText}</p>						    
-						</article>
-						<Button bsStyle="primary" bsSize="large" onClick={this.forward}>
-     							Find out more
-    					</Button>
-		        </div>
-				<div className='sImage'>
-					  <img  src={this.state.scrollImage} className='imgScroll'/>
-				</div>
-			</div>
+			
 					
 			<div className='headLinks'>
 				<div className='headLeft'>

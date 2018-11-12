@@ -94,6 +94,7 @@
 	/*background-color: #4a90c0;*/
 	grid-area:nav;
 	display:flex;
+
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
@@ -120,6 +121,7 @@
 }
 .lift{
 	z-index: 1;
+
 }
 
 .navros{
@@ -136,6 +138,7 @@
 a{
 	width: auto;
 	text-decoration: none;
+	
 }
 a.active {
 	color: blue;

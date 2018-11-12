@@ -10,21 +10,24 @@ import PageCardAPI from './PageCardAPI';
 import {PCardList} from './PageCardAPI';
 import Discuss from './Discuss.js'
 import Quiz from 'react-quiz-component';
+import {NavHeader} from './NavHeader';
 
 
-// board will be passed props of this.props.match.url as matchi
-// board will render ui based on what matchi is
-// page also sends props of whatever is to be matched by topic.match.params. eg topic.activities if activty
-//FOR DISCUSS ALL THE Text will be passed into the discuss component as props this.state from board, props.... from discuss
 
-// const Board = (props) => {
+const NavLinksAdv = [{nav:'/Advanced/Stem-Cells/Science',text:'Stem Cells'},
+					{nav:'/Advanced/Genetic-Engineering/Science',text:'Genetic Engineering'},
+					{nav:'/Advanced/Brain-Chemistry/Science',text:'Brain Chemistry '},
+					{nav:'/Advanced/Vaccinations/Science', text:'Vaccinations'},
+					{nav:'/Advanced/Clinical-Trials/Science', text:'Clinical Trials'},
+					{nav:'/Advanced/Evolution/Science', text:'Evolution'},
+					{nav:'/Advanced/PGD/Science', text:'PGD'}]
 class Board2 extends Component {
 	constructor(props){
 		super(props);
 		this.state = {
 			Subject: {},
 			Activity: [],
-			Opinion: {},
+			Opinion: [],
 			Quiz:{},
 			Vidsource:''
 		};
@@ -94,6 +97,8 @@ class Board2 extends Component {
 		
 	
 		return(
+			<div>
+			<div className='navro'><NavHeader NavLinks={NavLinksAdv} /></div>
 				<div className='boardMain'>
 				<div className='showCase'>{this.grabType()}</div>
 				
@@ -101,6 +106,7 @@ class Board2 extends Component {
 				
 					
 				</div>
+			</div>
 			);
 	}
 }
@@ -119,3 +125,9 @@ export default Board2;
 // 		</div>
 
 // 		);
+// board will be passed props of this.props.match.url as matchi
+// board will render ui based on what matchi is
+// page also sends props of whatever is to be matched by topic.match.params. eg topic.activities if activty
+//FOR DISCUSS ALL THE Text will be passed into the discuss component as props this.state from board, props.... from discuss
+
+// const Board = (props) => {

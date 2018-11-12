@@ -14,13 +14,13 @@ import {NavHeader} from './NavHeader';
 import Footer from './Footer';
 
 
-const NavLinks = [{nav:'/Standard/Stem-Cells',text:'Stem Cells'},
-					{nav:'/Standard/Genetic-Engineering',text:'Genetic Engineering'},
-					{nav:'/Standard/Brain-Chemistry',text:'Brain Chemistry '},
-					{nav:'/Standard/Vaccinations', text:'Vaccinations'},
-					{nav:'/Standard/Clinical-Trials', text:'Clinical Trials'},
-					{nav:'/Standard/Evolution', text:'Evolution'},
-					{nav:'/Standard/PGD', text:'PGD'}]
+const NavLinks = [{nav:'/Standard/Stem-Cells/Science',text:'Stem Cells'},
+					{nav:'/Standard/Genetic-Engineering/Science',text:'Genetic Engineering'},
+					{nav:'/Standard/Brain-Chemistry/Science',text:'Brain Chemistry '},
+					{nav:'/Standard/Vaccinations/Science', text:'Vaccinations'},
+					{nav:'/Standard/Clinical-Trials/Science', text:'Clinical Trials'},
+					{nav:'/Standard/Evolution/Science', text:'Evolution'},
+					{nav:'/Standard/PGD/Science', text:'PGD'}]
 
 const Slides = [{header:'Vaccinations',text1:'What are vaccinations and how they work?',
 									text2: 'Why did the MMR vaccination become controversial?',

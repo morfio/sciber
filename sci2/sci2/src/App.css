@@ -1,7 +1,7 @@
 .App{
   width:auto;
-  height:auto;
-  /*margin:0 auto;*/
+  height:100%;
+  margin:0 auto;
   border-style: solid;
   border-width: 1px;
   background-color: #ffff;

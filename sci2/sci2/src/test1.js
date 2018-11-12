@@ -5,42 +5,42 @@ import vaccine from './images/Vaccinations_off.gif';
 import brain from './images/Brain_Chemistry_off.gif';
 import evolution from './images/Evolution_off.gif';
 import pgd from './images/pgd_off.gif';
-import stemcellactivity1 from './images/stemcellactivity1.png';
-import stemcellactivity2 from './images/stemcellactivity2.png';
-import stemcellactivity3 from './images/stemcellactivity3.png';
-import stemcellopinionimage1 from './images/stemcellopinionimage1.png';
-import stemcellopinionimage2 from './images/stemcellopinionimage2.png';
-import stemcellopinionimage3 from './images/stemcellopinionimage3.png';
-import evoopinionimage1 from './images/evoopinionimage1.png';
-import evoopinionimage2 from './images/evoopinionimage2.png';
-import evoopinionimage3 from './images/evoopinionimage3.jpg';
-import evoactivityimage1 from './images/evoactivityimage1.png';
-import evoactivityimage2 from './images/evoactivityimage2.png';
-import evoactivityimage3 from './images/evoactivityimage3.png';
-import genesopinionimage1 from './images/genesopinionimage1.png';
-import genesopinionimage2 from './images/geneopinionimage2.png';
-import genesopinionimage3 from './images/geneopinionimage3.png';
-import geneactivityimage1 from './images/geneactivityimage1.png';
-import geneactivityimage2 from './images/geneactivityimage2.png';
-import geneactivityimage3 from './images/geneactivityimage3.png';
-import vacactivity1 from './images/vacactivity1.png';
-import vacactivity2 from './images/vacactivity2.png';
-import vacactivity3 from './images/vacactivity3.png';
-import vacopinion1 from './images/vacopinion1.png';
-import vacopinion2 from './images/vacopinion2.png';
-import vacopinion3 from './images/vacopinion3.png';
-import brainactivityimage1 from './images/brainactivityimage1.png';
-import brainactivityimage2 from './images/brainactivityimage2.png';
-import brainactivityimage3 from './images/brainactivityimage3.png';
-import brainopinionimage1 from './images/brainopinionimage1.png';
-import brainopinionimage2 from './images/brainopinionimage2.png';
-import brainopinionimage3 from './images/brainopinionimage3.png';
-import clinicactivity1 from './images/clinicactivity1.png';
-import clinicactivity2 from './images/clinicactivity2.png';
-import clinicactivity3 from './images/clinicactivity3.png';
-import clinicopinionimage1 from './images/clinicopinionimage1.png';
-import clinicopinionimage2 from './images/clinicopinionimage2.png';
-import clinicopinionimage3 from './images/clinicopinionimage3.png';
+import stemcellactivity1 from './images/stemcellactiveimage1stan.png';
+import stemcellactivity2 from './images/stemcellactiveimage2stan.png';
+import stemcellactivity3 from './images/stemcellactiveimage3stan.png';
+import stemcellopinionimage1 from './images/stemcellopinionimage1stan.png';
+import stemcellopinionimage2 from './images/stemcellopinionimage2stan.png';
+import stemcellopinionimage3 from './images/stemcellopinionimage3stan.png';
+import evoopinionimage1 from './images/evoopinionimage1stan.png';
+import evoopinionimage2 from './images/evoopinionimage2stan.png';
+import evoopinionimage3 from './images/evoopinionimage3stan.png';
+import evoactivityimage1 from './images/evoactivityimage1stan.png';
+import evoactivityimage2 from './images/evoactivityimage2stan.png';
+import evoactivityimage3 from './images/evoactivityimage3stan.png';
+import genesopinionimage1 from './images/genesopinionimage1stan.png';
+import genesopinionimage2 from './images/genesopinionimage2stan.png';
+import genesopinionimage3 from './images/genesopinionimage3stan.png';
+import geneactivityimage1 from './images/geneactivityimage1stan.png';
+import geneactivityimage2 from './images/geneactivityimage2stan.png';
+import geneactivityimage3 from './images/geneactivityimage3stan.png';
+import vacactivity1 from './images/vacactivity1stan.png';
+import vacactivity2 from './images/vacactivity2stan.png';
+import vacactivity3 from './images/vacactivity3stan.png';
+import vacopinion1 from './images/vacopinion1stan.png';
+import vacopinion2 from './images/vacopinion2stan.png';
+import vacopinion3 from './images/vacopinion3stan.jpg';
+import brainactivityimage1 from './images/brainactivityimage1stan.png';
+import brainactivityimage2 from './images/brainactivityimage2stan.png';
+import brainactivityimage3 from './images/brainactivityimage3stan.png';
+import brainopinionimage1 from './images/brainopinionimage1stan.png';
+import brainopinionimage2 from './images/brainopinionimage2stan.png';
+import brainopinionimage3 from './images/brainopinionimage3stan.png';
+import clinicactivity1 from './images/clinicactivity1stan.png';
+import clinicactivity2 from './images/clinicactivity2stan.png';
+import clinicactivity3 from './images/clinicactivity3stan.png';
+import clinicopinionimage1 from './images/clinicopinionimage1stan.png';
+import clinicopinionimage2 from './images/clinicopinionimage2stan.png';
+import clinicopinionimage3 from './images/clinicopinionimage3stan.png';
 
 
 var TopicAPI2 = {
@@ -237,7 +237,7 @@ var TopicAPI2 = {
                     img:genesopinionimage3,
                     tag: "GM issues",
                     text: "This film is based on a play written by J. Lewis, R. Driver, J. Leach and C. Wood-Robinson presenting some opinions held by fictional characters to stimulate discussion.",
-                    links:""
+                    links:"https://youtu.be/iOgBFd8QU4k"
                       }
                 ]
               ,
@@ -413,25 +413,15 @@ var TopicAPI2 = {
       ],
       "correctAnswer": "3"
     },
+    
     {
-      "question": "Scientists find embryonic stem cells interesting because they can grow into all the cell types needed to make your",
+      "question": "Which is NOT true for a reflex reaction?",
       "questionType": "text",
       "answers": [
         "It is automatic",
         "It involves the brain",
         "It is fast",
         "It involves nerve cells (neurons)"
-      ],
-      "correctAnswer": "2"
-    },
-    {
-      "question": "Which is NOT true for a reflex reaction?",
-      "questionType": "text",
-      "answers": [
-        "They have been used to treat leukaemia",
-        "Some can be found in bones",
-        "They are found in children",
-        "They can grow into any cell type"
       ],
       "correctAnswer": "1"
     },
@@ -561,16 +551,19 @@ var TopicAPI2 = {
                 img:vacactivity1,
                 tag: "Learning module",
                 text: "READ through this BBC Bitesize learning module to discover the ddvantages and disadvantages of vaccinations",
+                links: "https://bigpictureeducation.com/drug-development"
                  },
               {
                 img:vacactivity2,
                 tag: "How vaccines work",
                 text: "RESEARCH how vaccines protect us by watching these videos from the NHS",
+                links: "https://www.bbc.com/bitesize/guides/z8fkmsg/revision/10"
                   },
               {
                 img:vacactivity3,
                 tag: "Jenner",
                 text: "WATCH this HowStuffWorks video showing how vaccinations first came about through the work of Dr Edward Jenner.",
+                links: "https://www.centreofthecell.org/learn-play/patient-journeys/clinical-research/"
                   },
             ],
           "quiz": {
@@ -957,7 +950,7 @@ var TopicAPI2 = {
       "correctAnswer": "4"
     },
      {
-      "question": " Which of the following CANNOT explained by evolution by natural selection?",
+      "question": " Which of the following CANNOT be explained by evolution by natural selection?",
       "questionType": "text",
       "answers": [
         "A huge diversity of life on Earth",

@@ -12,7 +12,7 @@ const Navigation = () => {
 		<div className='navheader'>
 			
 				
-				<img className='logo' src={Logo} />
+				<Link to='/' className='logo'><img className='logo' src={Logo} /></Link>
 				<img className='logtext' src={Imtext} />
 				
 				<div className='headText'><p><h6>Helping students make informed judgements about 
