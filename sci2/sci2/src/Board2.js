@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Board.css';
-import { Link } from 'react-router-dom';
+import { NavLink, Link, Route  } from 'react-router-dom';
 import TopicAPI3 from './test14';
 import Youtube from 'react-youtube';
 import Activity from './Activity';
@@ -98,7 +98,7 @@ class Board2 extends Component {
 	
 		return(
 			<div>
-			<div className='navro'><NavHeader NavLinks={NavLinksAdv} /></div>
+			<div className='topBNav'><span><NavLink to='/Standard'>Standard Level</NavLink> / <NavLink to='/Advanced'>Advanced Level</NavLink></span></div>
 				<div className='boardMain'>
 				<div className='showCase'>{this.grabType()}</div>
 				

@@ -177,16 +177,16 @@ h3 p{
 .tHeadL{
    
   margin: 0px;
-  padding-left: 3px;
+  padding-right: .5em;
 }
 .tBotL{
-
+padding-right: .5em;
 margin: 0px;
-padding-left: 3px;
+
 }
-.tHead{margin: 0px;}
+.tHead{margin: 0px;padding-left: .5em;}
 .tBot{margin: 0px;
-    padding-right: 10px; }
+    padding-left: .5em; }
  .hRightBoard{
     display: inline-block;
     height:11em;

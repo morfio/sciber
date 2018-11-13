@@ -41,6 +41,11 @@ import clinicactivity3 from './images/clinicactivity3stan.png';
 import clinicopinionimage1 from './images/clinicopinionimage1stan.png';
 import clinicopinionimage2 from './images/clinicopinionimage2stan.png';
 import clinicopinionimage3 from './images/clinicopinionimage3stan.png';
+import pgdopinionimage1stan from './images/pgdopinionimage1stan.jpg';
+import pgdopinionimage2stan from './images/pgdopinionimage2stan.jpg';
+import pgdopinionimage3stan from './images/pgdopinionimage3stan.jpg';
+import PGD from './images/pgd_off.gif';
+
 
 
 var TopicAPI2 = {
@@ -50,7 +55,6 @@ var TopicAPI2 = {
          "title": 'Stem Cells',
          "img": 'Stemr',
          "science": {
-         	vidsource: ""
                 },
          "opinion": [  
                   {
@@ -350,7 +354,7 @@ var TopicAPI2 = {
           "discussion": ""
     },
         {"topic": 'Brain-Chemistry',
-         "vidsource": 'fZrL7h2aqZQ',
+         "vidsource": 'rt4J47lQT5Q',
          "title": 'Brain Chemistry',
          "img": brain,
          "science": {
@@ -518,7 +522,7 @@ var TopicAPI2 = {
           "discussion": ""
     },
         {"topic": 'Vaccinations',
-         "vidsource": 'WnREhRUmK_g',
+         "vidsource": 'crWWJgUwk8U',
          "title": 'Vaccinations',
          "img": vaccine,
          "science": {
@@ -675,7 +679,7 @@ var TopicAPI2 = {
           "discussion": ""
     },
         {"topic": 'Clinical-Trials',
-         "vidsource": 'WnREhRUmK_g',
+         "vidsource": 'q9bl_mJQQ3M',
          "title": 'Clinical Trials',
          "img": clinic,
          "science": {
@@ -843,7 +847,7 @@ var TopicAPI2 = {
           "discussion": ""
     },
         {"topic": 'Evolution',
-         "vidsource": 'WnREhRUmK_g',
+         "vidsource": '358F-TMUeBE',
          "title": 'Evolution',
          "img": evolution,
          "science": {
@@ -864,6 +868,172 @@ var TopicAPI2 = {
                       },
                   {
                     img:evoopinionimage3,
+                    tag: "Evolution in schools?",
+                    text: "This survey by the British Council shows how the people in different countries feel about which evolutionary theories should be taught in schools.",
+                    links: "http://ncse.com/files/pub/evolution/09-Survey-BritishCouncil-globaleducationDarwineducation-MORIEducationDataTables-FINAL.pdf"
+                      }
+                ]
+              ,
+              
+            "activities": [
+              {              
+                im:evoactivityimage1,
+                tag: "The history",
+                text: "READ the story of the Great Debate from the Oxford University Museum of Natural History",
+                links: "http://www.bbc.co.uk/schools/gcsebitesize/science/aqa/evolutiontheories/theoriesofevolutionrev5.shtml"
+                 },
+              {
+                im:evoactivityimage2,
+                tag: "Contemporary overview",
+                text: "READ this article for a modern overview of evolution from the New Scientist",
+                links: "http://www.bbc.co.uk/nature/life"
+                  },
+              {
+                im:evoactivityimage3,
+                tag: "Evolution of superbugs",
+                text: "WATCH this short film about the evolution of drug resistant superbugs from the American Museum of Natural History ",
+                links: "http://www.bbc.co.uk/schools/gcsebitesize/science/aqa/evolutiontheories/theoriesofevolutionact.shtml"
+                  },
+            ],
+          "quiz":{
+  "quizTitle": "Evolution Quiz ",
+  "questions": [
+    {
+      "question": "Which of these did Darwin think?",
+      "questionType": "text",
+      "answers": [
+        "Creatures least suited to island life would survive to breed despite all odds",
+        "Creatures least suited to island life would survive by adapting their features and passing the new versions on to their offspring",
+        "Creatures best suited to island life would survive to breed but could never become a new species over many generations",
+        "Creatures best suited to island life would survive to breed and pass on their features to their offspring"
+      ],
+      "correctAnswer": "4"
+    },
+    {
+      "question": " We don't have fossils to show all the species between the first life form and the organisms alive today. What reason would a scientist be LEAST likely to give for this?",
+      "questionType": "text",
+      "answers": [
+        "The organism must get trapped in sediment, peat, resin or ice before it decays",
+        "The organisms in between never existed",
+        "We haven't found all of the fossils in between yet",
+        "The species we have not found may have decayed or got eaten before they had chance to become fossils" 
+      ],
+      "correctAnswer": "2"
+    },
+    {
+      "question": "The earliest fossils that have been found were alive.....?",
+      "questionType": "text",
+      "answers": [
+        "3.5 billion years ago and were very simple cells",
+        "3.5 billion years ago and had tissues and organs",
+        "2000 years ago and were similar organisms to those alive today",
+        "2000 years ago and were very simple cells"
+      ],
+      "correctAnswer": "1"
+    },
+    {
+      "question": "Which of the following did Darwin use to support his ideas about evolution?",
+      "questionType": "text",
+      "answers": [
+         "Genes tell the cells of an organism how to make the organism’s tissues, characteristics and control what happens inside the organism.",
+        "Mixing genes from two parents can give a large variety of possible gene combinations resulting in characteristics which could be advantageous",
+        "When parent genes are copied, a mutation can give rise to new gene combinations and mutations which can cause changes in the organism's characteristics",
+        "Characteristics which give a better chance of survival are more likely to be passed on from parent to offspring"
+      ],
+      "correctAnswer": "4"
+    },
+    {
+      "question": "Why are evolutionary biologists comparing protein molecules of different species?",
+      "questionType": "text",
+      "answers": [
+        "To see how closely related they are",
+        "Because all organisms have protein molecules",
+        "To see if species with closely related skeletons also have closely related proteins",
+        "All of the above"
+      ],
+      "correctAnswer": "4"
+    },
+     {
+      "question": " Which of the following CANNOT be explained by evolution by natural selection?",
+      "questionType": "text",
+      "answers": [
+        "A huge diversity of life on Earth",
+        "The increasing complexity of ancient fossils",
+        "Why humans have a short tail bone",
+        "The purpose of life and the universe"
+      ],
+      "correctAnswer": "4"
+    },
+    {
+      "question": "Natural selection can be summarised into which six stages?",
+      "questionType": "text",
+      "answers": [
+      "Variation > excess offspring > struggle > survive > reproduce > repeat",
+      "Variation > excess offspring > strangle > survive > reproduce > repeat",
+      "Variation > excess offspring > snuggle > survive > reproduce > repeat",
+      "Variation > excess offspring > shuffle > survive > reproduce > repeat" 
+      ],
+      "correctAnswer": "1"
+    },
+    {
+      "question": "Darwin wrote a famous book called…?",
+      "questionType": "text",
+      "answers": [
+        "The Origin of Species",
+        "The Finches of Galapagos",
+        "Survival of the Fittest",
+        "50 Shades of Selection"
+              ],
+      "correctAnswer": "1"
+    },
+    {
+      "question": " Which other scientist had the same theory as Darwin’s?",
+      "questionType": "text",
+      "answers": [
+        "Huxley",
+        "The Bishop of Oxford",
+        "Wallace",
+        "Albert Einstein"
+              ],
+      "correctAnswer": "3"
+    },
+    {
+      "question": "Which of the following does not provide evidence for evolution?",
+      "questionType": "text",
+      "answers": [
+        "Observations of the peppered moth",
+        "Antibiotic resistant bacteria",
+        "The fossil record",
+        "The Bible"
+      ],
+      "correctAnswer": "4"
+        }
+      ]
+    },
+          "discussion": ""
+    },
+    {"topic": 'PGD',
+         "vidsource": 'WnREhRUmK_g',
+         "title": 'PGD',
+         "img": PGD,
+         "science": {
+          vidsource: ""
+                },
+         "opinion": [  
+                  {
+                    img:pgdopinionimage1stan,
+                    tag: "Creationism in school?",
+                    text: "Seven opinions about whether creationism should be taught in schoosl from 4Thought.TV",
+                    links: "http://www.channel4.com/programmes/4thoughttv/?autoplay=true"
+                     },
+                  {
+                    img:pgdopinionimage2stan,
+                    tag: "Atheist and theist views",
+                    text: "WATCH these BBC Class Clips about the purpose of evolution and how the atheist and theist views differ.",
+                    links: "http://www.bbc.co.uk/education/topics/zy86n39/resources/1"
+                      },
+                  {
+                    img:pgdopinionimage3stan,
                     tag: "Evolution in schools?",
                     text: "This survey by the British Council shows how the people in different countries feel about which evolutionary theories should be taught in schools.",
                     links: "http://ncse.com/files/pub/evolution/09-Survey-BritishCouncil-globaleducationDarwineducation-MORIEducationDataTables-FINAL.pdf"

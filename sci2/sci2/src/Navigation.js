@@ -19,20 +19,20 @@ const Navigation = () => {
 				controversial aspects of science</h6></p></div>
 				
 			    <div className='nav'>
-				    <span className='Home lift'>
-				      <NavLink className='Home ' activeClassName="active"  to="/">Home</NavLink>      
+				    <span className='Home lift '>
+				      <NavLink className='Home ' activeClassName="active"  to="/"><p className='white'>Home</p></NavLink>      
 				    </span>
-				    <span className='Stand lift'>
-				    <NavLink activeClassName="active"  to="/Standard">Standard</NavLink>
+				    <span className='Stand lift white'>
+				    <NavLink activeClassName="active"  to="/Standard"><p className='white'>Standard</p></NavLink>
 				    </span>
-				    <span className='Advanced lift'>
-				    <NavLink activeClassName="active"  to="/Advanced">Advanced</NavLink>
+				    <span className='Advanced lift white'>
+				    <NavLink activeClassName="active"  to="/Advanced"><p className='white'>Advanced</p></NavLink>
 				    </span>
-				    <span className='Facilitators lift'>
-				    <NavLink activeClassName="active"  to="/Facilitator">Facilitators</NavLink>
+				    <span className='Facilitators lift white'>
+				    <NavLink activeClassName="active"  to="/Facilitator"><p className='white'>Facilitators</p></NavLink>
 				    </span>
-				    <span className='About lift'>
-				    <NavLink activeClassName="active"  to="/About">About</NavLink>
+				    <span className='About lift white'>
+				    <NavLink activeClassName="active"  to="/About"><p className='white'>About</p></NavLink>
 				    </span>
 				</div>
 			<div className='navros'></div>

@@ -26,7 +26,7 @@ import {Public} from './Facilitator';
 import {FacHeader} from './Facilitator';
 import Disclaimer from './Disclaimer';
 
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route, NavLink, Switch } from 'react-router-dom';
 
 class App extends Component {
   
@@ -37,26 +37,28 @@ class App extends Component {
     return (
       <div className="App">
         <header className=''>
-          <Router>
-            <div>
-              <Navigation />
-              <Route exact path="/" component={Home} />
-              <Route exact path="/Standard" component={Standard} />
-              <Route  path="/Standard/:dpd/:section" component={Board} />
-                <Route  path="/Standard/:topic" component={Page} /> 
-              <Route exact path="/Advanced" component={Advanced} />
-              <Route path="/Advanced/:topic/:section" component={Board2} />
-              <Route  path="/Advanced/:topic" component={Page} />
-              <Route  path="/Facilitator" component={FacHeader} />
-                <Route exact path="/Facilitator/Public" component={Public} />
-                <Route  path="/Facilitator/Lesson" component={Lesson} />
-                <Route  path="/Facilitator/Curriculum" component={Curriculum} />
+          <Router> 
+            <Switch>
+              <div>
+                <Navigation />
+                <Route exact path="/" component={Home} />
+                <Route exact path="/Standard" component={Standard} />
+                <Route exact path="/Standard/:dpd/:section" component={Board} />
+                  <Route  path="/Standard/:topic" component={Page} /> 
+                <Route exact path="/Advanced" component={Advanced} />
+                <Route path="/Advanced/:topic/:section" component={Board2} />
+                <Route  path="/Advanced/:topic" component={Page} />
+                <Route  path="/Facilitator" component={FacHeader} />
+                  <Route exact path="/Facilitator/Public" component={Public} />
+                  <Route  path="/Facilitator/Lesson" component={Lesson} />
+                  <Route  path="/Facilitator/Curriculum" component={Curriculum} />
 
-              <Route  path="/About" component={About} />
-              <Route  path="/HcardLinks" component={HcardLinks} />
-              <Route path="/Disclaimer" component={Disclaimer} />
-              <Footer className='Footer'/>
-            </div>
+                <Route  path="/About" component={About} />
+                <Route  path="/HcardLinks" component={HcardLinks} />
+                <Route path="/Disclaimer" component={Disclaimer} />
+                <Footer className='Footer'/>
+              </div>
+            </Switch>
 
           </Router>
           

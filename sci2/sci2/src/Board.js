@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Board.css';
-import { Link } from 'react-router-dom';
+import { NavLink, Link, Route  } from 'react-router-dom';
 import TopicAPI2 from './test1';
 import Youtube from 'react-youtube';
 import Activity from './Activity';
@@ -31,7 +31,14 @@ class Board extends Component {
 			Activity: [],
 			Opinion: [],
 			Quiz:{},
-			Vidsource:''
+			Vidsource:'',
+			NavLinks: [{nav:'/Standard/Stem-Cells/Science',text:'Stem Cells'},
+					{nav:'/Standard/Genetic-Engineering/Science',text:'Genetic-Engineering'},
+					{nav:'/Standard/Brain-Chemistry/Science',text:'Brain-Chemistry '},
+					{nav:'/Standard/Vaccinations/Science', text:'Vaccinations'},
+					{nav:'/Standard/Clinical-Trials/Science', text:'Clinical-Trials'},
+					{nav:'/Standard/Evolution/Science', text:'Evolution'},
+					{nav:'/Standard/PGD/Science', text:'PGD'}]
 		};
 		this.grabTop = this.grabTop.bind(this);
 		this.grabType = this.grabType.bind(this);
@@ -100,8 +107,9 @@ class Board extends Component {
 	
 		return(
 			<div>
-				<div className='navro'><NavHeader NavLinks={NavLinks} /></div>	
-				<Link to="/Standard/Evolution/Science">Evo</Link>
+				
+				<div className='topBNav'><span><NavLink to='/Standard'>Standard Level</NavLink> / <NavLink to='/Advanced'>Advanced Level</NavLink></span></div>	
+			
 				<div className='boardMain'>
 									
 					 <div className='showCase'>{this.grabType()}</div>
@@ -135,3 +143,5 @@ export default Board;
 //FOR DISCUSS ALL THE Text will be passed into the discuss component as props this.state from board, props.... from discuss
 
 // const Board = (props) => {
+
+	// <div className='navro'><NavHeader NavLinks={this.state.NavLinks} /></div><Link to='/Standard/Evolution/Science'>Evo</Link>

@@ -4,7 +4,7 @@ import BigCard from './BigCard';
 
 const Activity = ({Activity}) => {
 	return(
-		<div className='activityCard'>
+		<div className='activityCard white'>
 			{Activity.map((activity, index) =>
 				{
 					return(

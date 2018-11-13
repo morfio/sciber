@@ -156,6 +156,7 @@
 /*	background-color: #2774af;*/
 	/*opacity: 0.6;*/
 	z-index: 0;
+
  /* justify-content: center;
   font-size: .75em;*/
   background-image: linear-gradient(#1f5a9c, #3399cc);
@@ -171,6 +172,7 @@
   flex-direction: row;
   justify-content: space-around;
   padding:0 1em;
+  color: #ffff;
 }
 .nav{
 	grid-area:nav;

@@ -17,17 +17,49 @@ class ScrollBox extends React.Component {
 	constructor(props){
 		super(props);
 		this.state = {
-			counter: 0
-		}
+	  	image : {},
+	  	scrollTitle: 'Welcome to SciberBrain',
+	  	bodyText: 'SciberBrain is a collection of resources to stimulate group discussions about controversial aspects of science. Choose the level and topic(below) for your group and away you go.',
+	  	scrollImage: welcome,
+	  	counter: 0
+	  	 
+	  }
+	  this.setScroll  = this.setScroll.bind(this); 
+	  this.onClock = this.onClock.bind(this);
+	  this.forward = this.forward.bind(this); 
+	}
 
-		this.onClock = this.onClock.bind(this);
+	forward() {
+		this.onClock();
+		this.setScroll();
 	}
 
 	onClock() { 
+		//get present value of counter
+		let newCount = this.state.counter + 1;
+		//roll back if at limit of array
+		if (newCount >= HomeScrollList.length){
+			newCount = 0;
+		} else {
+			newCount = newCount;
+		}
+		//update counter value
 		this.setState({
-			counter: this.state.counter + 1
+			counter: newCount
+		})
 
-
+	}
+	setScroll() {
+		const presentScroll = HomeScrollList[this.state.counter];
+		//Define keys of template
+		const sc = presentScroll.titleheader;
+		const sth = presentScroll.bodytext;
+		const si = presentScroll.img
+		//set State to required values
+		this.setState({
+			scrollTitle : sc,
+			bodyText: sth,
+			scrollImage: si
 		})
 
 	}

@@ -10,7 +10,7 @@ export const NavHeader = ({NavLinks})=> {
 					return (
 									<li key={index} className='linkBody'>
 										<NavLink to={NavLinks[index].nav}>
-											{NavLinks[index].text}
+											<p className='white'>{NavLinks[index].text}</p>
 										</NavLink>
 									</li>
 				);
@@ -21,3 +21,4 @@ export const NavHeader = ({NavLinks})=> {
 		);
 }
 
+// <p className='white'></p>

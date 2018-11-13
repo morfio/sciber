@@ -134,6 +134,7 @@
 	opacity: 0.4;
 	overflow:hidden;
 	z-index: 0;
+	
 }
 a{
 	width: auto;
@@ -143,3 +144,8 @@ a{
 a.active {
 	color: blue;
  }
+
+ .white{color:#fff;
+ 	padding: 0px;
+ 	margin:0px;}
+ 	
