@@ -15,8 +15,8 @@ const Navigation = () => {
 				<Link to='/' className='logo'><img className='logo' src={Logo} /></Link>
 				<img className='logtext' src={Imtext} />
 				
-				<div className='headText'><p><h6>Helping students make informed judgements about 
-				controversial aspects of science</h6></p></div>
+				<div className='headText'><p>Helping students make informed judgements about 
+				controversial aspects of science</p></div>
 				
 			    <div className='nav'>
 				    <span className='Home lift '>
