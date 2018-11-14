@@ -2,6 +2,10 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import './Facilitator.css';
 import Navigation from './Navigation';
+import AQA from './misc/AQA_Biology_Curriculum_links_1516.pdf';
+import EDEXCEL from './misc/Edexcel_Biology_Curriculum_links_1516.pdf';
+import OCR from './misc/OCR_Biology_Curriculum_links_1516.pdf';
+import Facilitators from './misc/Sciberbrain_handbook_Update2016.pdf';
 // import Footer from './Footer';
 
 export const FacHeader = () => {
@@ -109,7 +113,7 @@ export const Public = () => {
 									give considered opinions, say if they have changed their minds or voice further questions.
 								</p>
 								<p>
-									This <a href=''>8 page PDF</a>has more details on the dialogue facilitation stages above
+									This <a href={AQA}>8 page PDF</a>has more details on the dialogue facilitation stages above
 								</p>
 							</div>
 							<ol></ol>
@@ -215,19 +219,19 @@ export const Curriculum = () => {
 			<li className='under'>
 				<div className='dropdown'>
 					<p className='topHeader'>AQA Biology AS/A2</p>
-					<p className='topHeader'><a href=''>Open PDF</a> showing how SciberBrain topics link to AQA</p>
+					<p className='topHeader'><a href={AQA}>Open PDF</a> showing how SciberBrain topics link to AQA</p>
 				</div>
 			</li>
 			<li className='under'>	
 				<div className='dropdown'>
 					<p className='topHeader'>Edexcel Biology AS/A2</p>
-					<p className='topHeader'><a href=''>Open PDF</a> showing how SciberBrain topics link to Edexcel</p>
+					<p className='topHeader'><a href={EDEXCEL}>Open PDF</a> showing how SciberBrain topics link to Edexcel</p>
 				</div>
 			</li>
 			<li className='under'>
 				<div className='dropdown'>
 					<p className='topHeader'>OCR Biology AS/A2</p>
-					<p className='topHeader'><a href=''>Open PDF</a> showing how SciberBrain topics link to OCR</p>
+					<p className='topHeader'><a href={OCR}>Open PDF</a> showing how SciberBrain topics link to OCR</p>
 				</div>
 			</li>
 			</ul>
@@ -363,7 +367,7 @@ export const Lesson = () => {
 							Downloadable handbook
 					     </p>
 					   	 <div className='dropdown-content'>
-						This 8 page PDF has more details on the 5 dialogue facilitation stages above.
+						This <a href={Facilitators}>8 page PDF </a>has more details on the 5 dialogue facilitation stages above.
 					     </div>
 					   </div>
 					
