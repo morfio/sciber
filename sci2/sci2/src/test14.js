@@ -168,10 +168,10 @@ var TopicAPI3 = {
       "question": "Embryonic stem cells have been harvested from embryos that…?",
       "questionType": "text",
       "answers": [
-      "They are usually derived from an embryo that was developed during in vitro fertilisation (IVF) of an egg.",
-      "They are donated for research purposes with the informed consent of the donor.",
-      "They are separated from an embryo that is four to five days old",
-      "They can only give rise to only a limited number of body tissues." 
+      "Are made of approximately 100 cells.",
+      "Look like babies.",
+      "Have a nervous system and feel pain",
+      "Have a heart beat." 
       ],
       "correctAnswer": "1"
     },
@@ -857,7 +857,7 @@ var TopicAPI3 = {
         "Medicines and Health Rules Agency",
         "Medicines and Healthcare products Regulation Awards",
         "Medical Healthcare Regulators’ Authority",
-        "Medicines and Healthcare products Regulatory Association"
+        "Medicines and Healthcare products Regulatory Agency"
               ],
       "correctAnswer": "4"
     },

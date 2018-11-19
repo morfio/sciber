@@ -92,7 +92,7 @@ h3 p{
  .scrollB{
     grid-area:sb;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /*grid-template-columns:  25% 75%;*/
     grid-template-rows: minmax(3em, 15em);
     grid-template-areas: 
         "sText sImage";
@@ -106,7 +106,7 @@ h3 p{
  .sText{
     grid-area: sText;
     width:auto;
-    background-color: #E6F7FB;
+    background-color: #ecf3f9;
     padding: .5em;
     border-top-left-radius:10px;
     border-bottom-left-radius:10px;
@@ -117,7 +117,7 @@ h3 p{
 .sImage{
     grid-area: sImage;
     width:auto;
-    background-color: #E6F7FB;
+    background-color: #ecf3f9;
     overflow:hidden;
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
@@ -168,6 +168,7 @@ h3 p{
     flex-direction: column;
     align-items: flex-end;
     flex-wrap: wrap;
+    background-color: #e6f7fb;
     /*padding: .5em;*/
 
  }
@@ -191,6 +192,7 @@ margin: 0px;
     display: inline-block;
     height:11em;
     background-image: url(./images/advancedBG.jpg);
+    background-color: #e6f7fb;
     background-size:100% 100%;
     background-position: center;
     background-repeat: no-repeat;

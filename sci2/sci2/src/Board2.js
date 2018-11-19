@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Quiz from 'react-quiz-component';
 import './Board.css';
 import { NavLink, Link, Route  } from 'react-router-dom';
 import TopicAPI3 from './test14';
@@ -9,7 +10,6 @@ import PageCardList from './PageCardList';
 import PageCardAPI from './PageCardAPI';
 import {PCardList} from './PageCardAPI';
 import Discuss from './Discuss.js'
-import Quiz from 'react-quiz-component';
 import {NavHeader} from './NavHeader';
 
 

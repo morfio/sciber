@@ -122,7 +122,7 @@ var TopicAPI2 = {
         "Umbilical cord",
         "Thoughts and feelings"
       ],
-      "correctAnswer": "4"
+      "correctAnswer": "1"
     },
     {
       "question": "Adult stem cells help us to maintain and repair our bodies throughout our lives. Which of the following is NOT true about adult stem cells?",
@@ -427,7 +427,7 @@ var TopicAPI2 = {
         "It is fast",
         "It involves nerve cells (neurons)"
       ],
-      "correctAnswer": "1"
+      "correctAnswer": "2"
     },
     {
       "question": "Messages enter a neuron through it’s....",

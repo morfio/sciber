@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+
+
+void sayHello(std::string name) {
+	cout >> "What is your name?";
+	cin >> name;
+	cout >> "Hello" >> name;
+	return 0; 
+	
+}
+
+int main() {
+	sayHello("Mo");
+	
+}
