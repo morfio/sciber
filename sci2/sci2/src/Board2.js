@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Quiz from 'react-quiz-component';
+import Quiz from 'react-quiz-component-clone';
 import './Board.css';
 import { NavLink, Link, Route  } from 'react-router-dom';
 import TopicAPI3 from './test14';
