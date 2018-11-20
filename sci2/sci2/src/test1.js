@@ -41,9 +41,12 @@ import clinicactivity3 from './images/clinicactivity3stan.png';
 import clinicopinionimage1 from './images/clinicopinionimage1stan.png';
 import clinicopinionimage2 from './images/clinicopinionimage2stan.png';
 import clinicopinionimage3 from './images/clinicopinionimage3stan.png';
-import pgdopinionimage1stan from './images/pgdopinionimage1stan.jpg';
-import pgdopinionimage2stan from './images/pgdopinionimage2stan.jpg';
-import pgdopinionimage3stan from './images/pgdopinionimage3stan.jpg';
+import balanced from './images/balanced.jpg';
+import brca from './images/brca.jpg';
+import saviour from './images/saviour.jpg';
+import biopsy from './images/biopsy.jpg';
+import bitesize from './images/bitesize.jpg';
+import genetic_disorders from './images/genetic_disorders.jpg';
 import PGD from './images/pgd_off.gif';
 
 
@@ -1021,156 +1024,157 @@ var TopicAPI2 = {
                 },
          "opinion": [  
                   {
-                    img:pgdopinionimage1stan,
-                    tag: "Creationism in school?",
-                    text: "Seven opinions about whether creationism should be taught in schoosl from 4Thought.TV",
-                    links: "http://www.channel4.com/programmes/4thoughttv/?autoplay=true"
+                    img:saviour,
+                    tag: "Saviour?",
+                    text: "Watch this video about the ethics of ‘Saviour Siblings’. What would you do if you were in the parents’ place?",
+                    links: "https://www.youtube.com/watch?v=xkT0CzcaXmo"
                      },
                   {
-                    img:pgdopinionimage2stan,
-                    tag: "Atheist and theist views",
-                    text: "WATCH these BBC Class Clips about the purpose of evolution and how the atheist and theist views differ.",
-                    links: "http://www.bbc.co.uk/education/topics/zy86n39/resources/1"
+                    img:balanced,
+                    tag: "Balanced?",
+                    text: "Read this article about family balancing. Why did the HFEA make the decision they did?",
+                    links: "http://www.bbc.co.uk/worldservice/people/highlights/010313_pgd.shtml"
                       },
                   {
-                    img:pgdopinionimage3stan,
-                    tag: "Evolution in schools?",
-                    text: "This survey by the British Council shows how the people in different countries feel about which evolutionary theories should be taught in schools.",
-                    links: "http://ncse.com/files/pub/evolution/09-Survey-BritishCouncil-globaleducationDarwineducation-MORIEducationDataTables-FINAL.pdf"
+                    img:brca,
+                    tag: "BRCA",
+                    text: "Read this article about screening for Breast Cancer. Who would you trust to give you good advice about making this decision?",
+                    links: "http://www.breastcancer.org/symptoms/testing/genetic/preimplantation-genetic-diag"
                       }
                 ]
               ,
               
             "activities": [
               {              
-                im:evoactivityimage1,
-                tag: "The history",
-                text: "READ the story of the Great Debate from the Oxford University Museum of Natural History",
-                links: "http://www.bbc.co.uk/schools/gcsebitesize/science/aqa/evolutiontheories/theoriesofevolutionrev5.shtml"
+                img:biopsy,
+                tag: "Biopsy",
+                text: "Watch this video of a five day biopsy for PGD from University of Pennsylvania Health System",
+                links: "https://www.youtube.com/watch?v=W4tqLo2iLFU"
                  },
               {
-                im:evoactivityimage2,
-                tag: "Contemporary overview",
-                text: "READ this article for a modern overview of evolution from the New Scientist",
-                links: "http://www.bbc.co.uk/nature/life"
+                img:bitesize,
+                tag: "Bitesize",
+                text: "Explore this BBC website to test your understanding of PGD.",
+                links: "http://www.bbc.co.uk/schools/gcsebitesize/science/21c/genes/genetic_diseasesrev5.shtml"
                   },
               {
-                im:evoactivityimage3,
-                tag: "Evolution of superbugs",
-                text: "WATCH this short film about the evolution of drug resistant superbugs from the American Museum of Natural History ",
-                links: "http://www.bbc.co.uk/schools/gcsebitesize/science/aqa/evolutiontheories/theoriesofevolutionact.shtml"
+                img:genetic_disorders,
+                tag: "Genetic Disorders",
+                text: "Research about more Genetic Disorders which could be avoided using PGD.",
+                links: "http://learn.genetics.utah.edu/content/disorders/"
                   },
             ],
           "quiz":{
-  "quizTitle": "Evolution Quiz ",
+  "quizTitle": "PGD Quiz ",
   "questions": [
     {
-      "question": "Which of these did Darwin think?",
+      "question": "What does PGD stand for?",
       "questionType": "text",
       "answers": [
-        "Creatures least suited to island life would survive to breed despite all odds",
-        "Creatures least suited to island life would survive by adapting their features and passing the new versions on to their offspring",
-        "Creatures best suited to island life would survive to breed but could never become a new species over many generations",
-        "Creatures best suited to island life would survive to breed and pass on their features to their offspring"
+        "Prenatal genetic diagnosis",
+        "Postnatal genetic diagnosis",
+        "Preimplantation genetic diagnosis",
+        "Prenatal generic diagnosis"
       ],
       "correctAnswer": "4"
     },
     {
-      "question": " We don't have fossils to show all the species between the first life form and the organisms alive today. What reason would a scientist be LEAST likely to give for this?",
+      "question": "During In vitro fertilisation (IVF), where does the sperm cell meet the egg cell?",
       "questionType": "text",
       "answers": [
-        "The organism must get trapped in sediment, peat, resin or ice before it decays",
-        "The organisms in between never existed",
-        "We haven't found all of the fossils in between yet",
-        "The species we have not found may have decayed or got eaten before they had chance to become fossils" 
+        "In a petri dish",
+        "In the uterus",
+        "In the fallopian tubes",
+        "In the ovary" 
       ],
       "correctAnswer": "2"
     },
     {
-      "question": "The earliest fossils that have been found were alive.....?",
+      "question": "Why is a single sperm cell usually used for IVF before PGD?",
       "questionType": "text",
       "answers": [
-        "3.5 billion years ago and were very simple cells",
-        "3.5 billion years ago and had tissues and organs",
-        "2000 years ago and were similar organisms to those alive today",
-        "2000 years ago and were very simple cells"
+        "To avoid contamination from other sperm cells",
+        "So it is more likely the egg will be fertilised",
+        "It’s cheaper",
+        "It’s easier"
       ],
       "correctAnswer": "1"
     },
     {
-      "question": "Which of the following did Darwin use to support his ideas about evolution?",
+      "question": "At what stage of embryo development is a single cell removed for testing?",
       "questionType": "text",
       "answers": [
-         "Genes tell the cells of an organism how to make the organism’s tissues, characteristics and control what happens inside the organism.",
-        "Mixing genes from two parents can give a large variety of possible gene combinations resulting in characteristics which could be advantageous",
-        "When parent genes are copied, a mutation can give rise to new gene combinations and mutations which can cause changes in the organism's characteristics",
-        "Characteristics which give a better chance of survival are more likely to be passed on from parent to offspring"
+         "4 Cell stage",
+        "8 Cell stage",
+        " Zygote",
+        "Blastocyst"
       ],
       "correctAnswer": "4"
     },
     {
-      "question": "Why are evolutionary biologists comparing protein molecules of different species?",
+      "question": "What does totipotent mean?",
       "questionType": "text",
       "answers": [
-        "To see how closely related they are",
-        "Because all organisms have protein molecules",
-        "To see if species with closely related skeletons also have closely related proteins",
-        "All of the above"
+        "Cells that give rise to any other type of cell",
+        "The total number of cells in an embryo",
+        "Choosing an embryo which will have extra organs",
+        "Choosing an embryo which  will exactly the same DNA"
       ],
       "correctAnswer": "4"
     },
      {
-      "question": " Which of the following CANNOT be explained by evolution by natural selection?",
+      "question": "How can PGD be used to select a baby which can save the life of a sick sibling?",
       "questionType": "text",
       "answers": [
-        "A huge diversity of life on Earth",
-        "The increasing complexity of ancient fossils",
+        "Creating a clone of the sick child",
+        "Choosing an embryo which will be a donor match",
         "Why humans have a short tail bone",
         "The purpose of life and the universe"
       ],
       "correctAnswer": "4"
     },
     {
-      "question": "Natural selection can be summarised into which six stages?",
+      "question": "Polymerase Chain Reaction (PCR) helps identify mutations by…",
       "questionType": "text",
       "answers": [
-      "Variation > excess offspring > struggle > survive > reproduce > repeat",
-      "Variation > excess offspring > strangle > survive > reproduce > repeat",
-      "Variation > excess offspring > snuggle > survive > reproduce > repeat",
-      "Variation > excess offspring > shuffle > survive > reproduce > repeat" 
+      "Linking strands of DNA together",
+      "Reacting with mutations",
+      "Reading the DNA",
+      "Making lots of copies of sections of DNA" 
       ],
       "correctAnswer": "1"
     },
+    
     {
-      "question": "Darwin wrote a famous book called…?",
+      "question": "What is a ‘lower penetrance disorder’?",
       "questionType": "text",
       "answers": [
-        "The Origin of Species",
-        "The Finches of Galapagos",
-        "Survival of the Fittest",
-        "50 Shades of Selection"
-              ],
-      "correctAnswer": "1"
-    },
-    {
-      "question": " Which other scientist had the same theory as Darwin’s?",
-      "questionType": "text",
-      "answers": [
-        "Huxley",
-        "The Bishop of Oxford",
-        "Wallace",
-        "Albert Einstein"
+        "A disease which is not that serious",
+        "A disease that only affects children",
+        "A mutation that increases the risk of developing a disease",
+        "A mutation that causes a disease"
               ],
       "correctAnswer": "3"
     },
     {
-      "question": "Which of the following does not provide evidence for evolution?",
+      "question": "In what situation would sex selection of an embryo be",
       "questionType": "text",
       "answers": [
-        "Observations of the peppered moth",
-        "Antibiotic resistant bacteria",
-        "The fossil record",
-        "The Bible"
+        "The parents want a boy",
+        "To avoid a disease that only affects women",
+        "The parents already have three boys and want a girl to balance out the family.",
+        "To replace a deceased child"
+      ],
+      "correctAnswer": "4"
+        },
+      {
+      "question": "Which condition would not be suitable for testing by PGD?",
+      "questionType": "text",
+      "answers": [
+        "Huntingdon’s disease ",
+        "Duschenne Muscular dystrophy",
+        "Down’s syndrome",
+        "Alzheimer’s"
       ],
       "correctAnswer": "4"
         }

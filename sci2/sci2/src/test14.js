@@ -41,6 +41,13 @@ import clinicactivity3 from './images/clinicactivity3.png';
 import clinicopinionimage1 from './images/clinicopinionimage1.png';
 import clinicopinionimage2 from './images/clinicopinionimage2.png';
 import clinicopinionimage3 from './images/clinicopinionimage3.png';
+import hfea from './images/hfea.jpg';
+import saviour from './images/saviour.jpg';
+import virtual_lab from './images/virtual_lab.jpg';
+import autism from './images/autism.jpg';
+import disability from './images/disability.jpg';
+import risk from './images/risk.jpg';
+import PGD from './images/pgd_off.gif';
 
 
 var TopicAPI3 = {
@@ -1043,6 +1050,174 @@ var TopicAPI3 = {
     },
           "discussion": ""
     },
+    {"topic": 'pgd',
+         "vidsource": 'GEQJcU6p4W8',
+         "title": 'PGD',
+         "img": PGD,
+         "science": {
+          vidsource: ""
+                },
+         "opinion": [  
+                  {
+                    img:autism,
+                    tag: "Autism",
+                    text: "Read this article about prenatal screening for autism. Why is this particularly controversial?", 
+                    links: "https://theconversation.com/prenatal-screening-and-autism-20395"
+                     },
+                  {
+                    img:disability,
+                    tag: "Disability",
+                    text: "Read this newspaper article about selecting embryos with a disability. What’s your opinion on this?", 
+                    links: "http://www.nytimes.com/2006/12/05/health/05essa.html"
+                      },
+                  {
+                    img:risk,
+                    tag: "Risk",
+                    text: "Listen to this podcast about the diagnosing the risk of breast cancer. Why is calculating risk difficult?", 
+                    links: "http://www.progress.org.uk/riskassessment"
+                      }
+                ]
+              ,
+              
+            "activities": [
+              {              
+                img:hfea,
+                tag: "The history",              
+                text: "READ the story of the Great Debate from the Oxford University Museum of Natural History", 
+                links: "http://www.oum.ox.ac.uk/learning/pdfs/debate.pdf"
+                 },
+              {
+                img:saviour,
+                tag: "Contemporary overview",
+                text: "READ this article for a modern overview of evolution from the New Scientist", 
+                links: "http://www.newscientist.com/topic/evolution"
+                  },
+              {
+                img:virtual_lab,
+                tag: "Evolution of superbugs",
+                text: "WATCH this short film about the evolution of drug resistant superbugs from the American Museum of Natural History ", 
+                links: "https://www.youtube.com/watch?v=iLhSk_0tWJ4"
+                  },
+            ],
+          "quiz": {
+  "quizTitle": "Evolution Quiz ",
+  "questions": [
+    {
+      "question": "What does PGD stand for?",
+      "questionType": "text",
+      "answers": [
+        "Prenatal genetic diagnosis",
+        "Postnatal genetic diagnosis",
+        "Preimplantation genetic diagnosis",
+        "Prenatal generic diagnosis"
+      ],
+      "correctAnswer": "4"
+    },
+    {
+      "question": "During In vitro fertilisation (IVF), where does the sperm cell meet the egg cell?",
+      "questionType": "text",
+      "answers": [
+        "In a petri dish",
+        "In the uterus",
+        "In the fallopian tubes",
+        "In the ovary" 
+      ],
+      "correctAnswer": "2"
+    },
+    {
+      "question": "Why is a single sperm cell usually used for IVF before PGD?",
+      "questionType": "text",
+      "answers": [
+        "To avoid contamination from other sperm cells",
+        "So it is more likely the egg will be fertilised",
+        "It’s cheaper",
+        "It’s easier"
+      ],
+      "correctAnswer": "1"
+    },
+    {
+      "question": "At what stage of embryo development is a single cell removed for testing?",
+      "questionType": "text",
+      "answers": [
+         "4 Cell stage",
+        "8 Cell stage",
+        " Zygote",
+        "Blastocyst"
+      ],
+      "correctAnswer": "4"
+    },
+    {
+      "question": "What does totipotent mean?",
+      "questionType": "text",
+      "answers": [
+        "Cells that give rise to any other type of cell",
+        "The total number of cells in an embryo",
+        "Choosing an embryo which will have extra organs",
+        "Choosing an embryo which  will exactly the same DNA"
+      ],
+      "correctAnswer": "4"
+    },
+     {
+      "question": "How can PGD be used to select a baby which can save the life of a sick sibling?",
+      "questionType": "text",
+      "answers": [
+        "Creating a clone of the sick child",
+        "Choosing an embryo which will be a donor match",
+        "Why humans have a short tail bone",
+        "The purpose of life and the universe"
+      ],
+      "correctAnswer": "4"
+    },
+    {
+      "question": "Polymerase Chain Reaction (PCR) helps identify mutations by…",
+      "questionType": "text",
+      "answers": [
+      "Linking strands of DNA together",
+      "Reacting with mutations",
+      "Reading the DNA",
+      "Making lots of copies of sections of DNA" 
+      ],
+      "correctAnswer": "1"
+    },
+    
+    {
+      "question": "What is a ‘lower penetrance disorder’?",
+      "questionType": "text",
+      "answers": [
+        "A disease which is not that serious",
+        "A disease that only affects children",
+        "A mutation that increases the risk of developing a disease",
+        "A mutation that causes a disease"
+              ],
+      "correctAnswer": "3"
+    },
+    {
+      "question": "In what situation would sex selection of an embryo be",
+      "questionType": "text",
+      "answers": [
+        "The parents want a boy",
+        "To avoid a disease that only affects women",
+        "The parents already have three boys and want a girl to balance out the family.",
+        "To replace a deceased child"
+      ],
+      "correctAnswer": "4"
+        },
+      {
+      "question": "Which condition would not be suitable for testing by PGD?",
+      "questionType": "text",
+      "answers": [
+        "Huntingdon’s disease ",
+        "Duschenne Muscular dystrophy",
+        "Down’s syndrome",
+        "Alzheimer’s"
+      ],
+      "correctAnswer": "4"
+        }
+      
+      ]
+    },
+          "discussion": ""
+    }
         
     ],
     
