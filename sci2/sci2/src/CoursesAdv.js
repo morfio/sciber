@@ -48,7 +48,7 @@ export const CoursesAdv = [
   {
   	id:7,
   	vidsource: 'https://s3.eu-west-2.amazonaws.com/ppl-offline/PGD_Advanced.mp4',
-  	topic: 'pgd',
+  	topic: 'PGD',
   	img:pgd
   }
 ];

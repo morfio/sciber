@@ -53,7 +53,7 @@ export const CoursesStan = [
   {
   	id:7,
   	vidsource: 'https://youtu.be/rt4J47lQT5Q',
-  	title: 'pgd',
+  	title: 'PGD',
   	img:pgd,
     topic:'PGD'
   }

@@ -1050,7 +1050,7 @@ var TopicAPI3 = {
     },
           "discussion": ""
     },
-    {"topic": 'pgd',
+    {"topic": 'PGD',
          "vidsource": 'GEQJcU6p4W8',
          "title": 'PGD',
          "img": PGD,
@@ -1100,7 +1100,7 @@ var TopicAPI3 = {
                   },
             ],
           "quiz": {
-  "quizTitle": "Evolution Quiz ",
+  "quizTitle": "PGD Quiz ",
   "questions": [
     {
       "question": "What does PGD stand for?",
