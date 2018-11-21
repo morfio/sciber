@@ -162,8 +162,8 @@ class Standard extends Component {
 							  			<img src={this.state.img}/>
 								  </div>
 								  	<div className='theButtons'>
-										<button className="f6 link dim br-pill ph3 pv2 mb2 dib white bg-black scrollButton" onClick={this.forward}>Next</button>
-										<button className="f6 link dim br-pill ph3 pv2 mb2 dib white bg-black scrollButton" onClick={this.backward}>Back</button>
+										<button className=" scrollButton" onClick={this.forward}>&#8249;</button>
+										<button className="scrollButton" onClick={this.backward}>&#8250;</button>
 									</div>
 								</div>
 								

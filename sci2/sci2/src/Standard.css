@@ -213,9 +213,9 @@ li {
   border-radius: .75em;
 }
 .scrollButton {
-  height: 1.2em;
-  width: 3em;  
-  margin: 10px 10px 10px 0;
+  /*height: 1.2em;
+  width: 3em; */ 
+  /*margin: 10px 10px 10px 0;*/
   /*text-align: center;
   line-height: 30px;
   display: inline-block;
@@ -223,17 +223,17 @@ li {
     display: inline-block;
     padding: 8px 16px;*/
 
-  
+  background-color: #e6f7fb;
 }
 
-.theButtons{
+./*theButtons{
   display: flex;
   justify-content:space-between;
   align-items:  center;
-  height: auto;
+  height: auto;*/
   /*padding: 2em;*/
-}
-.rounded-left{
+/*}*/
+/*.rounded-left{
   border-top-left-radius: .50em;
   border-bottom-left-radius: .50em;
   border: 2px solid #ecf4f9;
@@ -243,7 +243,7 @@ li {
   border-top-right-radius: .50em;
   border-bottom-right-radius: .50em;
   border: 2px solid #ecf4f9;
-}
+}*/
 .buttonText{
   margin: 0px;
   padding: 0px;
