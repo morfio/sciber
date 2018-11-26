@@ -1051,7 +1051,7 @@ var TopicAPI3 = {
           "discussion": ""
     },
     {"topic": 'PGD',
-         "vidsource": 'GEQJcU6p4W8',
+         "vidsource": '3MPbAnrd-1k',
          "title": 'PGD',
          "img": PGD,
          "science": {

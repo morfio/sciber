@@ -14,7 +14,7 @@ const PageCard = ({img, title, topic, matchi,toBeGot}) => {
 				
 				<img className='dibs' src={img} />
 					
-					<p className='tc text fw7 bg-dark-red'>{title}</p>		
+					<p className='tc text fw7 white'>{title}</p>		
 				
 			</Link>
 		</div>
