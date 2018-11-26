@@ -9,7 +9,7 @@ const BigCard = ({img, tag, text,links}) => {
 			<a href={links}>
 				<div className="banner">
 				<img src={img}  className='bigImg'/>
-				<p className='bigTag'>{tag}</p>
+				<p className='bigTag white'>{tag}</p>
 				</div>
 				<p className='bigText'>{text}</p>		
 				<a href="www.google.com"></a>
