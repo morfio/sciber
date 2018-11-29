@@ -1076,7 +1076,7 @@ var TopicAPI2 = {
         "Preimplantation genetic diagnosis",
         "Prenatal generic diagnosis"
       ],
-      "correctAnswer": "4"
+      "correctAnswer": "3"
     },
     {
       "question": "During In vitro fertilisation (IVF), where does the sperm cell meet the egg cell?",
@@ -1087,7 +1087,7 @@ var TopicAPI2 = {
         "In the fallopian tubes",
         "In the ovary" 
       ],
-      "correctAnswer": "2"
+      "correctAnswer": "1"
     },
     {
       "question": "Why is a single sperm cell usually used for IVF before PGD?",
@@ -1109,7 +1109,7 @@ var TopicAPI2 = {
         " Zygote",
         "Blastocyst"
       ],
-      "correctAnswer": "4"
+      "correctAnswer": "2"
     },
     {
       "question": "What does totipotent mean?",
@@ -1120,7 +1120,7 @@ var TopicAPI2 = {
         "Choosing an embryo which will have extra organs",
         "Choosing an embryo which  will exactly the same DNA"
       ],
-      "correctAnswer": "4"
+      "correctAnswer": "1"
     },
      {
       "question": "How can PGD be used to select a baby which can save the life of a sick sibling?",
@@ -1131,7 +1131,7 @@ var TopicAPI2 = {
         "Why humans have a short tail bone",
         "The purpose of life and the universe"
       ],
-      "correctAnswer": "4"
+      "correctAnswer": "2"
     },
     {
       "question": "Polymerase Chain Reaction (PCR) helps identify mutations by…",
@@ -1142,7 +1142,7 @@ var TopicAPI2 = {
       "Reading the DNA",
       "Making lots of copies of sections of DNA" 
       ],
-      "correctAnswer": "1"
+      "correctAnswer": "4"
     },
     
     {
@@ -1165,7 +1165,7 @@ var TopicAPI2 = {
         "The parents already have three boys and want a girl to balance out the family.",
         "To replace a deceased child"
       ],
-      "correctAnswer": "4"
+      "correctAnswer": "2"
         },
       {
       "question": "Which condition would not be suitable for testing by PGD?",
