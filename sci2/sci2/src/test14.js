@@ -1163,8 +1163,8 @@ var TopicAPI3 = {
       "answers": [
         "Creating a clone of the sick child",
         "Choosing an embryo which will be a donor match",
-        "Why humans have a short tail bone",
-        "The purpose of life and the universe"
+        "Choosing an embryo which will have extra organs",
+        "Choosing an embryo which  will exactly the same DNA"
       ],
       "correctAnswer": "2"
     },
